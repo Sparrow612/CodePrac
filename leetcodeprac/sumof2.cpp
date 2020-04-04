@@ -1,15 +1,17 @@
-//
-//  sumof2.cpp
-//  leetcodeprac
-//
-//  Created by 程荣鑫 on 2020/4/4.
-//  Copyright © 2020 程荣鑫. All rights reserved.
-//
-
+#include <vector>
+#include <map>
 #include <iostream>
 
 using namespace std;
 
-int main(){
-    return 0;
+vector<int> twoSum(vector<int>& nums, int target) {
+    map<int,int> m;
+    for(int i=0;i<nums.size();i++){
+        int diff=target-nums[i];
+        if(m.count(diff))
+            return {m[diff],i};
+        m[nums[i]]=i;
+    }
+    return {-1,-1};
 }
+
