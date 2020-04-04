@@ -12,7 +12,7 @@ bool isPalindrome(int x) {
     return isPalindrome(src);
 }
 
-int main(int argc, const char * argv[]) {
-    int num=-121;
-    cout<<isPalindrome(num)<<endl;
-}
+//int main(int argc, const char * argv[]) {
+//    int num=-121;
+//    cout<<isPalindrome(num)<<endl;
+//}

@@ -15,3 +15,9 @@ vector<int> twoSum(vector<int>& nums, int target) {
     return {-1,-1};
 }
 
+//int main(){
+//    vector<int> src={2,7,11,15};
+//    int tar=9;
+//    src=twoSum(src, tar);
+//    cout<<src[0]<<endl<<src[1]<<endl;
+//}
