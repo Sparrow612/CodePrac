@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		9F61FF482438CC2100FF3151 /* ispalindrome.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F61FF472438CC2100FF3151 /* ispalindrome.cpp */; };
 		9F61FF502438D10300FF3151 /* sumof2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F61FF4E2438D10300FF3151 /* sumof2.cpp */; };
+		9F8D4209243B85E200571408 /* longestnorepeat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F8D4208243B85E200571408 /* longestnorepeat.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,7 @@
 		9F61FF442438CC2100FF3151 /* leetcodeprac */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcodeprac; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F61FF472438CC2100FF3151 /* ispalindrome.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ispalindrome.cpp; sourceTree = "<group>"; };
 		9F61FF4E2438D10300FF3151 /* sumof2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sumof2.cpp; sourceTree = "<group>"; };
+		9F8D4208243B85E200571408 /* longestnorepeat.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = longestnorepeat.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			children = (
 				9F61FF472438CC2100FF3151 /* ispalindrome.cpp */,
 				9F61FF4E2438D10300FF3151 /* sumof2.cpp */,
+				9F8D4208243B85E200571408 /* longestnorepeat.cpp */,
 			);
 			path = leetcodeprac;
 			sourceTree = "<group>";
@@ -124,6 +127,7 @@
 			files = (
 				9F61FF482438CC2100FF3151 /* ispalindrome.cpp in Sources */,
 				9F61FF502438D10300FF3151 /* sumof2.cpp in Sources */,
+				9F8D4209243B85E200571408 /* longestnorepeat.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
