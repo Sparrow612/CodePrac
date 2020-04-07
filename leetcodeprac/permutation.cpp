@@ -31,13 +31,13 @@ vector<vector<int>> permute(vector<int>& nums) {
     return res;
 }
 
-int main(){
-    vector<int> n={1,2,3};
-    vector<vector<int>> res=permute(n);
-    for  (vector<int> v:res){
-        for (int n:v){
-            cout<<n<<" ";
-        }
-        cout<<endl;
-    }
-}
+//int main(){
+//    vector<int> n={1,2,3};
+//    vector<vector<int>> res=permute(n);
+//    for  (vector<int> v:res){
+//        for (int n:v){
+//            cout<<n<<" ";
+//        }
+//        cout<<endl;
+//    }
+//}
