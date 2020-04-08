@@ -18,32 +18,27 @@ int sum_up(int x,int y){
 }
 
 int movingCount(int m, int n, int k) {
-    int res=1;
-    bool * visiable=new bool[m*n];
-    for (unsigned i=1;i<m*n;i++){
-        int x=i/n,y=i%n;
-        int tmp=sum_up(x, y);
-        if (tmp<=k && !visiable[i]){
-            res++;
-            visiable[i]=true;
-        }
-        if (tmp<k){
-            if (x+1<m){
-                visiable[i+n]=true;
-                res++;
-            }
-            if (n+1<n&&!visiable[i+1]){
-                visiable[i+1]=true;
-                res++;
-            }
+    if (!k) return 1;
+    vector<vector<int> > vis(m, vector<int>(n, 0));
+    int ans = 1;
+    vis[0][0] = 1;
+    for (int i = 0; i < m; ++i) {
+        for (int j = 0; j < n; ++j) {
+            if ((i == 0 && j == 0) || sum_up(i, j) > k) continue;
+            if (i - 1 >= 0)
+                vis[i][j] |= vis[i - 1][j];
+            if (j - 1 >= 0)
+                vis[i][j] |= vis[i][j - 1];
+            ans += vis[i][j];
         }
     }
-    delete[] visiable;
-    return res;
+    return ans;
 }
+
+//经典的动态规划题
 
 //int main(){
 //    cout<<movingCount(16,8,4)<<endl;
 //}
 
-// 一次失败的尝试。。。 2020.04.08
+
