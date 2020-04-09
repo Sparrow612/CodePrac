@@ -51,9 +51,9 @@ bool isValid(string s) {
     return false;
 }
 
-int main(){
-    string src="]";
-    cout<<isValid(src)<<endl;
-}
+//int main(){
+//    string src="]";
+//    cout<<isValid(src)<<endl;
+//}
 
 // 栈的基本应用
