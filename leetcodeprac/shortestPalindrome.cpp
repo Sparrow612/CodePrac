@@ -17,13 +17,13 @@ string shortestPalindrome(string s) {
     reverse(rev.begin(), rev.end());
     for (int i=0;i<n;i++){
         if (s.substr(0,n-i)==rev.substr(i))
-            return rev.substr(0,i)+rev.substr(i);//找到最长的回文子串
+            return rev.substr(0,i)+s;//找到最长的回文子串
     }
     return "";
 }
 
 int main(){
-    string src="aacaaa";
+    string src="aacecaaa";
     cout<<shortestPalindrome(src)<<endl;
 }
 
