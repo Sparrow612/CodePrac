@@ -36,10 +36,10 @@ string longestPalindrome(string s) {
     return s.substr(start,length);
 }
 
-int main(){
-    string src="babad";
-    cout<<longestPalindrome(src)<<endl;
-}
+//int main(){
+//    string src="babad";
+//    cout<<longestPalindrome(src)<<endl;
+//}
 //
 //代码逻辑的问题不大，但是算法复杂度有待优化 2020.04.08
 //优化原来的超时代码 2020.04.10

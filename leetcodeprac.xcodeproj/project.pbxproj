@@ -15,6 +15,7 @@
 		9FB24B9D243CB1D70060AB80 /* maxrectangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FB24B9C243CB1D70060AB80 /* maxrectangle.cpp */; };
 		9FB24B9F243CBBA90060AB80 /* permutation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FB24B9E243CBBA90060AB80 /* permutation.cpp */; };
 		9FCF0042244095F400BB4F48 /* reverseWords.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FCF0041244095F400BB4F48 /* reverseWords.cpp */; };
+		9FCF00442440A8AF00BB4F48 /* shortestPalindrome.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FCF00432440A8AF00BB4F48 /* shortestPalindrome.cpp */; };
 		9FE93ECD24404649008A8BFF /* removeElements.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FE93ECC24404649008A8BFF /* removeElements.cpp */; };
 		9FE93ECF24404921008A8BFF /* sumof3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FE93ECE24404921008A8BFF /* sumof3.cpp */; };
 		9FFAFD0B243F128400242D01 /* validbrackets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FFAFD0A243F128400242D01 /* validbrackets.cpp */; };
@@ -43,6 +44,7 @@
 		9FB24B9C243CB1D70060AB80 /* maxrectangle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = maxrectangle.cpp; sourceTree = "<group>"; };
 		9FB24B9E243CBBA90060AB80 /* permutation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = permutation.cpp; sourceTree = "<group>"; };
 		9FCF0041244095F400BB4F48 /* reverseWords.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = reverseWords.cpp; sourceTree = "<group>"; };
+		9FCF00432440A8AF00BB4F48 /* shortestPalindrome.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = shortestPalindrome.cpp; sourceTree = "<group>"; };
 		9FE93ECC24404649008A8BFF /* removeElements.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = removeElements.cpp; sourceTree = "<group>"; };
 		9FE93ECE24404921008A8BFF /* sumof3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sumof3.cpp; sourceTree = "<group>"; };
 		9FFAFD0A243F128400242D01 /* validbrackets.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = validbrackets.cpp; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 				9FE93ECC24404649008A8BFF /* removeElements.cpp */,
 				9FE93ECE24404921008A8BFF /* sumof3.cpp */,
 				9FCF0041244095F400BB4F48 /* reverseWords.cpp */,
+				9FCF00432440A8AF00BB4F48 /* shortestPalindrome.cpp */,
 			);
 			path = leetcodeprac;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FCF00442440A8AF00BB4F48 /* shortestPalindrome.cpp in Sources */,
 				9F75FD6D243DF2BD004AC82D /* MovementRangeofRobot.cpp in Sources */,
 				9FFAFD0B243F128400242D01 /* validbrackets.cpp in Sources */,
 				9FE93ECD24404649008A8BFF /* removeElements.cpp in Sources */,
