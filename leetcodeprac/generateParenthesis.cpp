@@ -38,4 +38,4 @@ vector<string> generateParenthesis(int n) {
 //        cout<<s<<endl;
 //}
 
-//动态规划
+// 动态规划

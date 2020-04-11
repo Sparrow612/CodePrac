@@ -34,4 +34,4 @@ string reverseWords(string s) {
 //    cout<<reverseWords(src)<<endl;
 //}
 
-// 考验C++基本功的题目C++ 建议没事多拿出来写几遍
+// 考验C++基本功的题目, 建议没事多拿出来写几遍

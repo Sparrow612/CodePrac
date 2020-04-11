@@ -35,10 +35,8 @@ int movingCount(int m, int n, int k) {
     return ans;
 }
 
-//经典的动态规划题
-
 //int main(){
 //    cout<<movingCount(16,8,4)<<endl;
 //}
-
+// 动态规划题
 

@@ -39,9 +39,9 @@ string shortestPalindrome(string s) {
 }
 
 
-int main(){
-    string src="aacecaaa";
-    cout<<shortestPalindrome(src)<<endl;
-}
+//int main(){
+//    string src="aacecaaa";
+//    cout<<shortestPalindrome(src)<<endl;
+//}
 
 //这里的算法是双指针+递归
