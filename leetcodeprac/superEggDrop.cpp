@@ -40,9 +40,9 @@ int superEggDrop(int K, int N) {
     return dp(K, N);
 }
 
-int main(){
-    cout<<superEggDrop(2, 6)<<endl;
-}
+//int main(){
+//    cout<<superEggDrop(2, 6)<<endl;
+//}
 
 // 这么难的题目你当然是抄的！(x
 // 没事多看看 这道题目很经典的
