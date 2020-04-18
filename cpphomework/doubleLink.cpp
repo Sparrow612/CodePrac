@@ -90,43 +90,43 @@ void reverse(node * tar,node* &begin,node* &end) {
 	print(begin);
 }
 
-int main() {
-	int n;
-	node * begin = NULL, *cur = begin;
-	while (cin.peek() != '\n') {
-		cin >> n;
-		node * tmp = new node(n, cur);
-		if (!begin) begin = tmp;
-		if (cur) cur->next = tmp;
-		cur = tmp;
-	}
-	string req;
-	while (cin >> req) {
-		int op1, op2;
-		if (req == "addbegin") {
-			cin >> op1;
-			addbegin(begin, cur, op1);
-		}
-		else if (req == "addend") {
-			cin >> op1;
-			addend(begin, cur, op1);
-		}
-		else if (req == "addmid") {
-			cin >> op1 >> op2;
-			addmin(begin, op1, op2);
-			print(begin);
-		}
-		else if (req == "search") {
-			cin >> op1;
-			search(begin, op1);
-		}
-		else if (req == "delete") {
-			cin >> op1;
-			del(begin, op1, begin, cur);
-		}
-		else if (req == "count") count(begin);
-
-		else if (req == "reverse") reverse(begin, begin, cur);
-
-	}
-}
+//int main() {
+//	int n;
+//	node * begin = NULL, *cur = begin;
+//	while (cin.peek() != '\n') {
+//		cin >> n;
+//		node * tmp = new node(n, cur);
+//		if (!begin) begin = tmp;
+//		if (cur) cur->next = tmp;
+//		cur = tmp;
+//	}
+//	string req;
+//	while (cin >> req) {
+//		int op1, op2;
+//		if (req == "addbegin") {
+//			cin >> op1;
+//			addbegin(begin, cur, op1);
+//		}
+//		else if (req == "addend") {
+//			cin >> op1;
+//			addend(begin, cur, op1);
+//		}
+//		else if (req == "addmid") {
+//			cin >> op1 >> op2;
+//			addmin(begin, op1, op2);
+//			print(begin);
+//		}
+//		else if (req == "search") {
+//			cin >> op1;
+//			search(begin, op1);
+//		}
+//		else if (req == "delete") {
+//			cin >> op1;
+//			del(begin, op1, begin, cur);
+//		}
+//		else if (req == "count") count(begin);
+//
+//		else if (req == "reverse") reverse(begin, begin, cur);
+//
+//	}
+//}

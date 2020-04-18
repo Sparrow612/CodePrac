@@ -80,13 +80,13 @@ public:
 	}
 };
 
-int main() {
-	int type, n, m;
-	cin >> type >> n >> m;
-	Matrix<string> a = Matrix<string>(type, n, m, vector<vector<string>>(n,vector<string>(m,"")));
-	cin >> type >> n >> m;
-	Matrix<string> b = Matrix<string>(type, n, m, vector<vector<string>>(n, vector<string>(m, "")));
-
-	cout << fixed << setprecision(4);
-	a.multipy(b);
-}
+//int main() {
+//	int type, n, m;
+//	cin >> type >> n >> m;
+//	Matrix<string> a = Matrix<string>(type, n, m, vector<vector<string>>(n,vector<string>(m,"")));
+//	cin >> type >> n >> m;
+//	Matrix<string> b = Matrix<string>(type, n, m, vector<vector<string>>(n, vector<string>(m, "")));
+//
+//	cout << fixed << setprecision(4);
+//	a.multipy(b);
+//}
