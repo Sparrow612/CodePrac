@@ -18,20 +18,24 @@ public:
     virtual void print(int i){
         cout<<"Base:"<<i<<endl;
     }
+    virtual void purevir()=0;
 };
 
 class Derive:public Base{
 public:
-    using Base::print;
-    virtual void print(){
-        cout<<"Derive"<<endl;
+    void purevir(){
+        Base::purevir();//复用父类的实现
+//        cout<<"a impl of pure"<<endl;
     }
 };
 
+void Base::purevir(){
+    cout<<"a pure virtual function"<<endl;
+}//纯虚函数也是可以被定义、调用的！
+
 //int main(){
 //    Derive d;
-//    d.print();
-//    d.print(8);
+//    d.purevir();
 //}
 
 // A file to test cpp syntax

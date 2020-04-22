@@ -37,14 +37,14 @@ int trans(string s) {
     return NULL;
 }
 
-int main() {
-	int n;
-	cin >> n;
-	string req;
-	int x, y;
-	for (unsigned i = 0; i < n; i++) {
-		cin >> req >> x >> y;
-		func f = func_pool[trans(req)];
-		cout << encrypt(f, x, y) << endl;
-	}
-}
+//int main() {
+//	int n;
+//	cin >> n;
+//	string req;
+//	int x, y;
+//	for (unsigned i = 0; i < n; i++) {
+//		cin >> req >> x >> y;
+//		func f = func_pool[trans(req)];
+//		cout << encrypt(f, x, y) << endl;
+//	}
+//}
