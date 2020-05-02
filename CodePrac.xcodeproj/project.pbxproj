@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F028051245D10B800B0EAF5 /* convertZ.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F028050245D10B800B0EAF5 /* convertZ.cpp */; };
+		9F028053245D191E00B0EAF5 /* reverseInt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F028052245D191E00B0EAF5 /* reverseInt.cpp */; };
+		9F028055245D1E4F00B0EAF5 /* myAtoi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F028054245D1E4F00B0EAF5 /* myAtoi.cpp */; };
+		9F028057245D536100B0EAF5 /* regularExpression.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F028056245D536100B0EAF5 /* regularExpression.cpp */; };
 		9F44D4D0244AADF7008A2DAF /* reArrangeLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F44D4CD244AADF6008A2DAF /* reArrangeLinkedList.cpp */; };
 		9F44D4D1244AADF7008A2DAF /* encryption.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F44D4CE244AADF6008A2DAF /* encryption.cpp */; };
 		9F44D4D2244AADF7008A2DAF /* mergeLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F44D4CF244AADF6008A2DAF /* mergeLinkedList.cpp */; };
@@ -16,6 +20,8 @@
 		9F75FD6F243E02F6004AC82D /* longestPalindrome.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F75FD6E243E02F6004AC82D /* longestPalindrome.cpp */; };
 		9F7DC2672455833F00FD794E /* mergeKLists.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F7DC2662455833F00FD794E /* mergeKLists.cpp */; };
 		9F8D4209243B85E200571408 /* longestnorepeat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F8D4208243B85E200571408 /* longestnorepeat.cpp */; };
+		9FA49B60245BFC1400084243 /* mergeTwoLists.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FA49B5F245BFC1400084243 /* mergeTwoLists.cpp */; };
+		9FA49B62245C631300084243 /* findMedianSortedArrays.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FA49B61245C631300084243 /* findMedianSortedArrays.cpp */; };
 		9FB24B9D243CB1D70060AB80 /* maxrectangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FB24B9C243CB1D70060AB80 /* maxrectangle.cpp */; };
 		9FB24B9F243CBBA90060AB80 /* permutation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FB24B9E243CBBA90060AB80 /* permutation.cpp */; };
 		9FB25B152441E5AB0059F248 /* superEggDrop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FB25B142441E5AB0059F248 /* superEggDrop.cpp */; };
@@ -43,6 +49,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9F028050245D10B800B0EAF5 /* convertZ.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = convertZ.cpp; sourceTree = "<group>"; };
+		9F028052245D191E00B0EAF5 /* reverseInt.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = reverseInt.cpp; sourceTree = "<group>"; };
+		9F028054245D1E4F00B0EAF5 /* myAtoi.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = myAtoi.cpp; sourceTree = "<group>"; };
+		9F028056245D536100B0EAF5 /* regularExpression.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = regularExpression.cpp; sourceTree = "<group>"; };
 		9F44D4CD244AADF6008A2DAF /* reArrangeLinkedList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = reArrangeLinkedList.cpp; sourceTree = "<group>"; };
 		9F44D4CE244AADF6008A2DAF /* encryption.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = encryption.cpp; sourceTree = "<group>"; };
 		9F44D4CF244AADF6008A2DAF /* mergeLinkedList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mergeLinkedList.cpp; sourceTree = "<group>"; };
@@ -53,6 +63,8 @@
 		9F75FD6E243E02F6004AC82D /* longestPalindrome.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = longestPalindrome.cpp; sourceTree = "<group>"; };
 		9F7DC2662455833F00FD794E /* mergeKLists.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mergeKLists.cpp; sourceTree = "<group>"; };
 		9F8D4208243B85E200571408 /* longestnorepeat.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = longestnorepeat.cpp; sourceTree = "<group>"; };
+		9FA49B5F245BFC1400084243 /* mergeTwoLists.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mergeTwoLists.cpp; sourceTree = "<group>"; };
+		9FA49B61245C631300084243 /* findMedianSortedArrays.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = findMedianSortedArrays.cpp; sourceTree = "<group>"; };
 		9FB24B9C243CB1D70060AB80 /* maxrectangle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = maxrectangle.cpp; sourceTree = "<group>"; };
 		9FB24B9E243CBBA90060AB80 /* permutation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = permutation.cpp; sourceTree = "<group>"; };
 		9FB25B142441E5AB0059F248 /* superEggDrop.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = superEggDrop.cpp; sourceTree = "<group>"; };
@@ -113,6 +125,12 @@
 				9FCF00432440A8AF00BB4F48 /* shortestPalindrome.cpp */,
 				9FB25B142441E5AB0059F248 /* superEggDrop.cpp */,
 				9F7DC2662455833F00FD794E /* mergeKLists.cpp */,
+				9FA49B5F245BFC1400084243 /* mergeTwoLists.cpp */,
+				9FA49B61245C631300084243 /* findMedianSortedArrays.cpp */,
+				9F028050245D10B800B0EAF5 /* convertZ.cpp */,
+				9F028052245D191E00B0EAF5 /* reverseInt.cpp */,
+				9F028054245D1E4F00B0EAF5 /* myAtoi.cpp */,
+				9F028056245D536100B0EAF5 /* regularExpression.cpp */,
 			);
 			path = leetcodeprac;
 			sourceTree = "<group>";
@@ -187,8 +205,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F028051245D10B800B0EAF5 /* convertZ.cpp in Sources */,
 				9FCF00442440A8AF00BB4F48 /* shortestPalindrome.cpp in Sources */,
 				9F75FD6D243DF2BD004AC82D /* MovementRangeofRobot.cpp in Sources */,
+				9F028057245D536100B0EAF5 /* regularExpression.cpp in Sources */,
 				9FFAFD0B243F128400242D01 /* validbrackets.cpp in Sources */,
 				9FE93ECD24404649008A8BFF /* removeElements.cpp in Sources */,
 				9F44D4D0244AADF7008A2DAF /* reArrangeLinkedList.cpp in Sources */,
@@ -198,14 +218,18 @@
 				9FDB6F3B244881F900BD6D4E /* doubleLink.cpp in Sources */,
 				9F75FD6F243E02F6004AC82D /* longestPalindrome.cpp in Sources */,
 				9F44D4D1244AADF7008A2DAF /* encryption.cpp in Sources */,
+				9FA49B62245C631300084243 /* findMedianSortedArrays.cpp in Sources */,
 				9F44D4D2244AADF7008A2DAF /* mergeLinkedList.cpp in Sources */,
+				9F028053245D191E00B0EAF5 /* reverseInt.cpp in Sources */,
 				9FB24B9F243CBBA90060AB80 /* permutation.cpp in Sources */,
+				9F028055245D1E4F00B0EAF5 /* myAtoi.cpp in Sources */,
 				9F61FF482438CC2100FF3151 /* ispalindrome.cpp in Sources */,
 				9F7DC2672455833F00FD794E /* mergeKLists.cpp in Sources */,
 				9FCF0042244095F400BB4F48 /* reverseWords.cpp in Sources */,
 				9F61FF502438D10300FF3151 /* sumof2.cpp in Sources */,
 				9FDB6F3D2448821300BD6D4E /* matrixMultiplication.cpp in Sources */,
 				9F8D4209243B85E200571408 /* longestnorepeat.cpp in Sources */,
+				9FA49B60245BFC1400084243 /* mergeTwoLists.cpp in Sources */,
 				9FB25B152441E5AB0059F248 /* superEggDrop.cpp in Sources */,
 				9FFAFD0D243F168200242D01 /* generateParenthesis.cpp in Sources */,
 			);
