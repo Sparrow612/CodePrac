@@ -42,9 +42,9 @@ bool isMatch(string s, string p) {
     return dp[m][n];
 }
 
-int main(){
-    cout<<isMatch("aab", "a.")<<endl;
-}
+//int main(){
+//    cout<<isMatch("aab", "a.")<<endl;
+//}
 
 // 相当经典的正则表达式匹配题，有空整理一下！
 // 动态规划解法
