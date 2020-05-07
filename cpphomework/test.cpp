@@ -40,6 +40,8 @@ using namespace std;
 
 // A file to test cpp syntax
 class B{
+protected:
+    int val=17;
 public:
     void f(){
         cout<<"class B"<<endl;
@@ -53,17 +55,37 @@ public:
     }
 };
 
-class D:public B, public C{
+class D:public B {
 //public:
 //    void f(){
 //        B::f();
 //        C::f();
 //    }
+public:
+    void f(D& d){
+        cout<<d.val<<endl;
+    }
+    
+};
+
+class Champion{
+private:
+    int hp=10;
+public:
+    void fight(Champion& b){
+        b.hp--;
+        cout<<hp<<endl<<b.hp<<endl;
+    }
 };
 
 //int main(){
-//    D d;
-//    d.B::f();
-//    d.C::f();
+////    Champion a;
+////    Champion b;
+////    a.fight(b);
+////    D a;
+////    D d;
+////    a.f(d);
+//    int a[]={1,2,3};
+//    cout<<a[1];
 //}
 

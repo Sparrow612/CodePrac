@@ -18,7 +18,7 @@ vector<vector<int>> threeSum(vector<int>& nums) {
     sort(nums.begin(), nums.end());
     int end=(int)nums.size();
     for (int i=0;i<end-2;i++){
-        if (i&&nums[i-1]==nums[i]) continue;
+        if (i&&nums[i-1]==nums[i]) continue; // 确保不重复
         int l=i+1,r=end-1;
         while (l<r){
             int sum=nums[i]+nums[l]+nums[r];
