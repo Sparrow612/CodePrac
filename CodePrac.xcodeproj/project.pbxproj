@@ -15,6 +15,10 @@
 		9F028055245D1E4F00B0EAF5 /* myAtoi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F028054245D1E4F00B0EAF5 /* myAtoi.cpp */; };
 		9F028057245D536100B0EAF5 /* regularExpression.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F028056245D536100B0EAF5 /* regularExpression.cpp */; };
 		9F1BE1B2246507820068D3E2 /* maxSquare.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F1BE1B1246507820068D3E2 /* maxSquare.cpp */; };
+		9F1BE1B4246512E60068D3E2 /* maximalRectangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F1BE1B3246512E60068D3E2 /* maximalRectangle.cpp */; };
+		9F1BE1B6246542E50068D3E2 /* findSubstring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F1BE1B5246542E50068D3E2 /* findSubstring.cpp */; };
+		9F1BE1B82465455A0068D3E2 /* longestCommonPrefix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F1BE1B72465455A0068D3E2 /* longestCommonPrefix.cpp */; };
+		9F1BE1BA2465B6470068D3E2 /* threeSumClosest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F1BE1B92465B6470068D3E2 /* threeSumClosest.cpp */; };
 		9F44D4D0244AADF7008A2DAF /* reArrangeLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F44D4CD244AADF6008A2DAF /* reArrangeLinkedList.cpp */; };
 		9F44D4D1244AADF7008A2DAF /* encryption.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F44D4CE244AADF6008A2DAF /* encryption.cpp */; };
 		9F44D4D2244AADF7008A2DAF /* mergeLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F44D4CF244AADF6008A2DAF /* mergeLinkedList.cpp */; };
@@ -62,6 +66,10 @@
 		9F028054245D1E4F00B0EAF5 /* myAtoi.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = myAtoi.cpp; sourceTree = "<group>"; };
 		9F028056245D536100B0EAF5 /* regularExpression.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = regularExpression.cpp; sourceTree = "<group>"; };
 		9F1BE1B1246507820068D3E2 /* maxSquare.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = maxSquare.cpp; sourceTree = "<group>"; };
+		9F1BE1B3246512E60068D3E2 /* maximalRectangle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = maximalRectangle.cpp; sourceTree = "<group>"; };
+		9F1BE1B5246542E50068D3E2 /* findSubstring.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = findSubstring.cpp; sourceTree = "<group>"; };
+		9F1BE1B72465455A0068D3E2 /* longestCommonPrefix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = longestCommonPrefix.cpp; sourceTree = "<group>"; };
+		9F1BE1B92465B6470068D3E2 /* threeSumClosest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = threeSumClosest.cpp; sourceTree = "<group>"; };
 		9F44D4CD244AADF6008A2DAF /* reArrangeLinkedList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = reArrangeLinkedList.cpp; sourceTree = "<group>"; };
 		9F44D4CE244AADF6008A2DAF /* encryption.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = encryption.cpp; sourceTree = "<group>"; };
 		9F44D4CF244AADF6008A2DAF /* mergeLinkedList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mergeLinkedList.cpp; sourceTree = "<group>"; };
@@ -122,8 +130,10 @@
 			children = (
 				9F028050245D10B800B0EAF5 /* convertZ.cpp */,
 				9FA49B61245C631300084243 /* findMedianSortedArrays.cpp */,
+				9F1BE1B5246542E50068D3E2 /* findSubstring.cpp */,
 				9FFAFD0C243F168200242D01 /* generateParenthesis.cpp */,
 				9F61FF472438CC2100FF3151 /* ispalindrome.cpp */,
+				9F1BE1B72465455A0068D3E2 /* longestCommonPrefix.cpp */,
 				9F8D4208243B85E200571408 /* longestnorepeat.cpp */,
 				9F75FD6E243E02F6004AC82D /* longestPalindrome.cpp */,
 				9FA49B5F245BFC1400084243 /* mergeTwoLists.cpp */,
@@ -131,6 +141,7 @@
 				9F028054245D1E4F00B0EAF5 /* myAtoi.cpp */,
 				9FB24B9C243CB1D70060AB80 /* maxrectangle.cpp */,
 				9F1BE1B1246507820068D3E2 /* maxSquare.cpp */,
+				9F1BE1B3246512E60068D3E2 /* maximalRectangle.cpp */,
 				9F01A409246446C9003A0D44 /* maxArea.cpp */,
 				9FA44636245E8C80001797E2 /* maxSubArray.cpp */,
 				9F75FD6C243DF2BD004AC82D /* MovementRangeofRobot.cpp */,
@@ -144,6 +155,7 @@
 				9F01A40B246448FD003A0D44 /* sumof4.cpp */,
 				9FCF00432440A8AF00BB4F48 /* shortestPalindrome.cpp */,
 				9FB25B142441E5AB0059F248 /* superEggDrop.cpp */,
+				9F1BE1B92465B6470068D3E2 /* threeSumClosest.cpp */,
 				9F01A40D24645C20003A0D44 /* trapTheRain.cpp */,
 				9FFAFD0A243F128400242D01 /* validbrackets.cpp */,
 			);
@@ -226,12 +238,15 @@
 				9F028057245D536100B0EAF5 /* regularExpression.cpp in Sources */,
 				9FFAFD0B243F128400242D01 /* validbrackets.cpp in Sources */,
 				9FE93ECD24404649008A8BFF /* removeElements.cpp in Sources */,
+				9F1BE1BA2465B6470068D3E2 /* threeSumClosest.cpp in Sources */,
 				9F44D4D0244AADF7008A2DAF /* reArrangeLinkedList.cpp in Sources */,
 				9FDB6F3F24494EC100BD6D4E /* test.cpp in Sources */,
 				9FB24B9D243CB1D70060AB80 /* maxrectangle.cpp in Sources */,
 				9FE93ECF24404921008A8BFF /* sumof3.cpp in Sources */,
 				9FDB6F3B244881F900BD6D4E /* doubleLink.cpp in Sources */,
+				9F1BE1B4246512E60068D3E2 /* maximalRectangle.cpp in Sources */,
 				9F01A40A246446C9003A0D44 /* maxArea.cpp in Sources */,
+				9F1BE1B82465455A0068D3E2 /* longestCommonPrefix.cpp in Sources */,
 				9F75FD6F243E02F6004AC82D /* longestPalindrome.cpp in Sources */,
 				9F44D4D1244AADF7008A2DAF /* encryption.cpp in Sources */,
 				9FA49B62245C631300084243 /* findMedianSortedArrays.cpp in Sources */,
@@ -249,6 +264,7 @@
 				9FDB6F3D2448821300BD6D4E /* matrixMultiplication.cpp in Sources */,
 				9F8D4209243B85E200571408 /* longestnorepeat.cpp in Sources */,
 				9FA49B60245BFC1400084243 /* mergeTwoLists.cpp in Sources */,
+				9F1BE1B6246542E50068D3E2 /* findSubstring.cpp in Sources */,
 				9F01A40C246448FD003A0D44 /* sumof4.cpp in Sources */,
 				9FB25B152441E5AB0059F248 /* superEggDrop.cpp in Sources */,
 				9FFAFD0D243F168200242D01 /* generateParenthesis.cpp in Sources */,

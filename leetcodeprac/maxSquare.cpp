@@ -55,11 +55,11 @@ int maximalSquare(vector<vector<char>>& matrix) {
     return maxsquare;
 }
 
-int main(){
-    vector<char> line = {'0', '1'};
-    vector<vector<char>> src={{'1','0','1','0','0'},{'1','0','1','1','1'},{'1','1','1','1','1'},{'1','0','0','1','0'}};
-    cout<<maximalSquare(src)<<endl;
-}
+//int main(){
+//    vector<char> line = {'0', '1'};
+//    vector<vector<char>> src={{'1','0','1','0','0'},{'1','0','1','1','1'},{'1','1','1','1','1'},{'1','0','0','1','0'}};
+//    cout<<maximalSquare(src)<<endl;
+//}
 
 // 二维矩阵中最大的正方形
 // 动态规划解法
