@@ -42,13 +42,13 @@ vector<vector<int>> fourSum(vector<int>& nums, int target) {
     return res;
 }
 
-int main(){
-    vector<int> src={};
-    vector<vector<int>> res=fourSum(src, 0);
-    for (vector<int> item : res){
-        for (int num : item){
-            cout<<num<<' ';
-        }
-        cout<<endl;
-    }
-}
+//int main(){
+//    vector<int> src={};
+//    vector<vector<int>> res=fourSum(src, 0);
+//    for (vector<int> item : res){
+//        for (int num : item){
+//            cout<<num<<' ';
+//        }
+//        cout<<endl;
+//    }
+//}
