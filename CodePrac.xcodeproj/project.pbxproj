@@ -19,7 +19,9 @@
 		9F1BE1B6246542E50068D3E2 /* findSubstring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F1BE1B5246542E50068D3E2 /* findSubstring.cpp */; };
 		9F1BE1B82465455A0068D3E2 /* longestCommonPrefix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F1BE1B72465455A0068D3E2 /* longestCommonPrefix.cpp */; };
 		9F1BE1BA2465B6470068D3E2 /* threeSumClosest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F1BE1B92465B6470068D3E2 /* threeSumClosest.cpp */; };
+		9F3424FF2467B69E009D3B61 /* reverseKGroup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F3424FE2467B69E009D3B61 /* reverseKGroup.cpp */; };
 		9F42575F2466D07900C5000F /* letterCombinations.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F42575E2466D07900C5000F /* letterCombinations.cpp */; };
+		9F4257612466F06100C5000F /* swapPairs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F4257602466F06100C5000F /* swapPairs.cpp */; };
 		9F44D4D0244AADF7008A2DAF /* reArrangeLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F44D4CD244AADF6008A2DAF /* reArrangeLinkedList.cpp */; };
 		9F44D4D1244AADF7008A2DAF /* encryption.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F44D4CE244AADF6008A2DAF /* encryption.cpp */; };
 		9F44D4D2244AADF7008A2DAF /* mergeLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F44D4CF244AADF6008A2DAF /* mergeLinkedList.cpp */; };
@@ -72,7 +74,9 @@
 		9F1BE1B5246542E50068D3E2 /* findSubstring.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = findSubstring.cpp; sourceTree = "<group>"; };
 		9F1BE1B72465455A0068D3E2 /* longestCommonPrefix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = longestCommonPrefix.cpp; sourceTree = "<group>"; };
 		9F1BE1B92465B6470068D3E2 /* threeSumClosest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = threeSumClosest.cpp; sourceTree = "<group>"; };
+		9F3424FE2467B69E009D3B61 /* reverseKGroup.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = reverseKGroup.cpp; sourceTree = "<group>"; };
 		9F42575E2466D07900C5000F /* letterCombinations.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = letterCombinations.cpp; sourceTree = "<group>"; };
+		9F4257602466F06100C5000F /* swapPairs.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = swapPairs.cpp; sourceTree = "<group>"; };
 		9F44D4CD244AADF6008A2DAF /* reArrangeLinkedList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = reArrangeLinkedList.cpp; sourceTree = "<group>"; };
 		9F44D4CE244AADF6008A2DAF /* encryption.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = encryption.cpp; sourceTree = "<group>"; };
 		9F44D4CF244AADF6008A2DAF /* mergeLinkedList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mergeLinkedList.cpp; sourceTree = "<group>"; };
@@ -156,11 +160,13 @@
 				9F028052245D191E00B0EAF5 /* reverseInt.cpp */,
 				9FE93ECC24404649008A8BFF /* removeElements.cpp */,
 				9F028056245D536100B0EAF5 /* regularExpression.cpp */,
+				9F3424FE2467B69E009D3B61 /* reverseKGroup.cpp */,
+				9FB25B142441E5AB0059F248 /* superEggDrop.cpp */,
 				9F61FF4E2438D10300FF3151 /* sumof2.cpp */,
 				9FE93ECE24404921008A8BFF /* sumof3.cpp */,
 				9F01A40B246448FD003A0D44 /* sumof4.cpp */,
 				9FCF00432440A8AF00BB4F48 /* shortestPalindrome.cpp */,
-				9FB25B142441E5AB0059F248 /* superEggDrop.cpp */,
+				9F4257602466F06100C5000F /* swapPairs.cpp */,
 				9F1BE1B92465B6470068D3E2 /* threeSumClosest.cpp */,
 				9F01A40D24645C20003A0D44 /* trapTheRain.cpp */,
 				9FFAFD0A243F128400242D01 /* validbrackets.cpp */,
@@ -238,6 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F4257612466F06100C5000F /* swapPairs.cpp in Sources */,
 				9F028051245D10B800B0EAF5 /* convertZ.cpp in Sources */,
 				9F42575F2466D07900C5000F /* letterCombinations.cpp in Sources */,
 				9FCF00442440A8AF00BB4F48 /* shortestPalindrome.cpp in Sources */,
@@ -275,6 +282,7 @@
 				9F1BE1B6246542E50068D3E2 /* findSubstring.cpp in Sources */,
 				9F01A40C246448FD003A0D44 /* sumof4.cpp in Sources */,
 				9FB25B152441E5AB0059F248 /* superEggDrop.cpp in Sources */,
+				9F3424FF2467B69E009D3B61 /* reverseKGroup.cpp in Sources */,
 				9FFAFD0D243F168200242D01 /* generateParenthesis.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

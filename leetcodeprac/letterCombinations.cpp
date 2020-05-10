@@ -41,12 +41,12 @@ vector<string> letterCombinations(string digits) {
     return res;
 }
 
-int main(){
-    vector<string> res=letterCombinations("23");
-    for (string s: res){
-        cout<<s<<endl;
-    }
-}
+//int main(){
+//    vector<string> res=letterCombinations("23");
+//    for (string s: res){
+//        cout<<s<<endl;
+//    }
+//}
 
 // 这道题我们采用回溯算法
 // 电话号码所有可能的字母组合
