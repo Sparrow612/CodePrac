@@ -41,9 +41,9 @@ int shipWithinDays(vector<int>& weights, int D) {
         }
     }
     return left;
-}
+} // 用二分时，想清楚什么时候是l<=r 什么时候又不是，想清楚l和r的变换条件
 
-int main(){
-    vector<int> weights={1,2,3,4,5,6,7,8,9,10};
-    cout<<shipWithinDays(weights, 5)<<endl;
-}
+//int main(){
+//    vector<int> weights={1,2,3,4,5,6,7,8,9,10};
+//    cout<<shipWithinDays(weights, 5)<<endl;
+//}

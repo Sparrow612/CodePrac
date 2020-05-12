@@ -21,6 +21,8 @@
 		9F1BE1BA2465B6470068D3E2 /* threeSumClosest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F1BE1B92465B6470068D3E2 /* threeSumClosest.cpp */; };
 		9F263E3424696CA700B5F3BB /* myPow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F263E3324696CA700B5F3BB /* myPow.cpp */; };
 		9F263E36246970AF00B5F3BB /* shipWithinDays.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F263E35246970AF00B5F3BB /* shipWithinDays.cpp */; };
+		9F263E382469A8A700B5F3BB /* orangesRotting.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F263E372469A8A700B5F3BB /* orangesRotting.cpp */; };
+		9F263E3A246A412C00B5F3BB /* MinStack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F263E39246A412C00B5F3BB /* MinStack.cpp */; };
 		9F3424FF2467B69E009D3B61 /* reverseKGroup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F3424FE2467B69E009D3B61 /* reverseKGroup.cpp */; };
 		9F42575F2466D07900C5000F /* letterCombinations.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F42575E2466D07900C5000F /* letterCombinations.cpp */; };
 		9F4257612466F06100C5000F /* swapPairs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F4257602466F06100C5000F /* swapPairs.cpp */; };
@@ -78,6 +80,8 @@
 		9F1BE1B92465B6470068D3E2 /* threeSumClosest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = threeSumClosest.cpp; sourceTree = "<group>"; };
 		9F263E3324696CA700B5F3BB /* myPow.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = myPow.cpp; sourceTree = "<group>"; };
 		9F263E35246970AF00B5F3BB /* shipWithinDays.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = shipWithinDays.cpp; sourceTree = "<group>"; };
+		9F263E372469A8A700B5F3BB /* orangesRotting.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = orangesRotting.cpp; sourceTree = "<group>"; };
+		9F263E39246A412C00B5F3BB /* MinStack.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MinStack.cpp; sourceTree = "<group>"; };
 		9F3424FE2467B69E009D3B61 /* reverseKGroup.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = reverseKGroup.cpp; sourceTree = "<group>"; };
 		9F42575E2466D07900C5000F /* letterCombinations.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = letterCombinations.cpp; sourceTree = "<group>"; };
 		9F4257602466F06100C5000F /* swapPairs.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = swapPairs.cpp; sourceTree = "<group>"; };
@@ -159,7 +163,9 @@
 				9F01A409246446C9003A0D44 /* maxArea.cpp */,
 				9FD5C2F42466BC2000B7F65B /* mySqrt.cpp */,
 				9FA44636245E8C80001797E2 /* maxSubArray.cpp */,
+				9F263E39246A412C00B5F3BB /* MinStack.cpp */,
 				9F75FD6C243DF2BD004AC82D /* MovementRangeofRobot.cpp */,
+				9F263E372469A8A700B5F3BB /* orangesRotting.cpp */,
 				9FB24B9E243CBBA90060AB80 /* permutation.cpp */,
 				9FCF0041244095F400BB4F48 /* reverseWords.cpp */,
 				9F028052245D191E00B0EAF5 /* reverseInt.cpp */,
@@ -265,6 +271,7 @@
 				9FB24B9D243CB1D70060AB80 /* maxrectangle.cpp in Sources */,
 				9FE93ECF24404921008A8BFF /* sumof3.cpp in Sources */,
 				9FDB6F3B244881F900BD6D4E /* doubleLink.cpp in Sources */,
+				9F263E382469A8A700B5F3BB /* orangesRotting.cpp in Sources */,
 				9F1BE1B4246512E60068D3E2 /* maximalRectangle.cpp in Sources */,
 				9F01A40A246446C9003A0D44 /* maxArea.cpp in Sources */,
 				9F1BE1B82465455A0068D3E2 /* longestCommonPrefix.cpp in Sources */,
@@ -280,6 +287,7 @@
 				9F61FF482438CC2100FF3151 /* ispalindrome.cpp in Sources */,
 				9F1BE1B2246507820068D3E2 /* maxSquare.cpp in Sources */,
 				9FD5C2F52466BC2000B7F65B /* mySqrt.cpp in Sources */,
+				9F263E3A246A412C00B5F3BB /* MinStack.cpp in Sources */,
 				9FA44637245E8C80001797E2 /* maxSubArray.cpp in Sources */,
 				9F7DC2672455833F00FD794E /* mergeKLists.cpp in Sources */,
 				9FCF0042244095F400BB4F48 /* reverseWords.cpp in Sources */,
