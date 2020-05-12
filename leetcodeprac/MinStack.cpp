@@ -50,14 +50,14 @@ public:
     }
 };
 
-int main(){
-    MinStack* s=new MinStack;
-    s->push(-10);
-    s->push(14);
-    s->push(-20);
-    cout<<s->top()<<endl;
-    s->pop();
-    cout<<s->getMin()<<endl;
-    s->push(-10);
-}
+//int main(){
+//    MinStack* s=new MinStack;
+//    s->push(-10);
+//    s->push(14);
+//    s->push(-20);
+//    cout<<s->top()<<endl;
+//    s->pop();
+//    cout<<s->getMin()<<endl;
+//    s->push(-10);
+//}
 // 题目本身不难，但需要静下心来慢慢写

@@ -85,7 +85,17 @@ public:
 ////    D a;
 ////    D d;
 ////    a.f(d);
-//    int a[]={1,2,3};
-//    cout<<a[1];
+////    int a[]={1,2,3};
+////    cout<<a[1];
+//    char s[5];
+//    char a[5];
+//    char c[5];
+//    cin.get(s,5);
+//    cin.get(a,5);
+//    char d=cin.get();
+//    cin.get(c,5);
+//    cout<<s<<endl;
+//    cout<<a<<endl;
+//    cout<<c<<endl;
 //}
 

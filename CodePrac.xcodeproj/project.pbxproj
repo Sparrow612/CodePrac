@@ -19,6 +19,10 @@
 		9F1BE1B6246542E50068D3E2 /* findSubstring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F1BE1B5246542E50068D3E2 /* findSubstring.cpp */; };
 		9F1BE1B82465455A0068D3E2 /* longestCommonPrefix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F1BE1B72465455A0068D3E2 /* longestCommonPrefix.cpp */; };
 		9F1BE1BA2465B6470068D3E2 /* threeSumClosest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F1BE1B92465B6470068D3E2 /* threeSumClosest.cpp */; };
+		9F1E2A7E246A80B300592A4D /* uniquePaths.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F1E2A7D246A80B300592A4D /* uniquePaths.cpp */; };
+		9F1E2A80246A837100592A4D /* uniquePathsWithObstacles.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F1E2A7F246A837100592A4D /* uniquePathsWithObstacles.cpp */; };
+		9F1E2A82246A861000592A4D /* minPathSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F1E2A81246A861000592A4D /* minPathSum.cpp */; };
+		9F1E2A84246A8C6400592A4D /* minFallingPathSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F1E2A83246A8C6400592A4D /* minFallingPathSum.cpp */; };
 		9F263E3424696CA700B5F3BB /* myPow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F263E3324696CA700B5F3BB /* myPow.cpp */; };
 		9F263E36246970AF00B5F3BB /* shipWithinDays.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F263E35246970AF00B5F3BB /* shipWithinDays.cpp */; };
 		9F263E382469A8A700B5F3BB /* orangesRotting.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F263E372469A8A700B5F3BB /* orangesRotting.cpp */; };
@@ -78,6 +82,10 @@
 		9F1BE1B5246542E50068D3E2 /* findSubstring.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = findSubstring.cpp; sourceTree = "<group>"; };
 		9F1BE1B72465455A0068D3E2 /* longestCommonPrefix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = longestCommonPrefix.cpp; sourceTree = "<group>"; };
 		9F1BE1B92465B6470068D3E2 /* threeSumClosest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = threeSumClosest.cpp; sourceTree = "<group>"; };
+		9F1E2A7D246A80B300592A4D /* uniquePaths.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = uniquePaths.cpp; sourceTree = "<group>"; };
+		9F1E2A7F246A837100592A4D /* uniquePathsWithObstacles.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = uniquePathsWithObstacles.cpp; sourceTree = "<group>"; };
+		9F1E2A81246A861000592A4D /* minPathSum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = minPathSum.cpp; sourceTree = "<group>"; };
+		9F1E2A83246A8C6400592A4D /* minFallingPathSum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = minFallingPathSum.cpp; sourceTree = "<group>"; };
 		9F263E3324696CA700B5F3BB /* myPow.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = myPow.cpp; sourceTree = "<group>"; };
 		9F263E35246970AF00B5F3BB /* shipWithinDays.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = shipWithinDays.cpp; sourceTree = "<group>"; };
 		9F263E372469A8A700B5F3BB /* orangesRotting.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = orangesRotting.cpp; sourceTree = "<group>"; };
@@ -164,6 +172,8 @@
 				9FD5C2F42466BC2000B7F65B /* mySqrt.cpp */,
 				9FA44636245E8C80001797E2 /* maxSubArray.cpp */,
 				9F263E39246A412C00B5F3BB /* MinStack.cpp */,
+				9F1E2A81246A861000592A4D /* minPathSum.cpp */,
+				9F1E2A83246A8C6400592A4D /* minFallingPathSum.cpp */,
 				9F75FD6C243DF2BD004AC82D /* MovementRangeofRobot.cpp */,
 				9F263E372469A8A700B5F3BB /* orangesRotting.cpp */,
 				9FB24B9E243CBBA90060AB80 /* permutation.cpp */,
@@ -181,6 +191,8 @@
 				9F4257602466F06100C5000F /* swapPairs.cpp */,
 				9F1BE1B92465B6470068D3E2 /* threeSumClosest.cpp */,
 				9F01A40D24645C20003A0D44 /* trapTheRain.cpp */,
+				9F1E2A7D246A80B300592A4D /* uniquePaths.cpp */,
+				9F1E2A7F246A837100592A4D /* uniquePathsWithObstacles.cpp */,
 				9FFAFD0A243F128400242D01 /* validbrackets.cpp */,
 			);
 			path = leetcodeprac;
@@ -262,6 +274,7 @@
 				9F42575F2466D07900C5000F /* letterCombinations.cpp in Sources */,
 				9FCF00442440A8AF00BB4F48 /* shortestPalindrome.cpp in Sources */,
 				9F75FD6D243DF2BD004AC82D /* MovementRangeofRobot.cpp in Sources */,
+				9F1E2A80246A837100592A4D /* uniquePathsWithObstacles.cpp in Sources */,
 				9F028057245D536100B0EAF5 /* regularExpression.cpp in Sources */,
 				9FFAFD0B243F128400242D01 /* validbrackets.cpp in Sources */,
 				9FE93ECD24404649008A8BFF /* removeElements.cpp in Sources */,
@@ -272,6 +285,8 @@
 				9FE93ECF24404921008A8BFF /* sumof3.cpp in Sources */,
 				9FDB6F3B244881F900BD6D4E /* doubleLink.cpp in Sources */,
 				9F263E382469A8A700B5F3BB /* orangesRotting.cpp in Sources */,
+				9F1E2A82246A861000592A4D /* minPathSum.cpp in Sources */,
+				9F1E2A7E246A80B300592A4D /* uniquePaths.cpp in Sources */,
 				9F1BE1B4246512E60068D3E2 /* maximalRectangle.cpp in Sources */,
 				9F01A40A246446C9003A0D44 /* maxArea.cpp in Sources */,
 				9F1BE1B82465455A0068D3E2 /* longestCommonPrefix.cpp in Sources */,
@@ -294,6 +309,7 @@
 				9F61FF502438D10300FF3151 /* sumof2.cpp in Sources */,
 				9FDB6F3D2448821300BD6D4E /* matrixMultiplication.cpp in Sources */,
 				9F8D4209243B85E200571408 /* longestnorepeat.cpp in Sources */,
+				9F1E2A84246A8C6400592A4D /* minFallingPathSum.cpp in Sources */,
 				9FA49B60245BFC1400084243 /* mergeTwoLists.cpp in Sources */,
 				9F1BE1B6246542E50068D3E2 /* findSubstring.cpp in Sources */,
 				9F01A40C246448FD003A0D44 /* sumof4.cpp in Sources */,

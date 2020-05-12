@@ -51,4 +51,4 @@ node * selectmin(vector<node*>& lists, int k) {
 //		cout << tmp->val;
 //		if (i < tot - 1) cout << ' ';
 //	}	
-//}
+//} 可以分治
