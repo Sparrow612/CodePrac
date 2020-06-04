@@ -7,6 +7,8 @@
 //
 
 #include <iostream>
+#include <string>
+#define maxl(a,b) (a)>(b)?(a):(b)
 
 using namespace std;
 
@@ -78,6 +80,71 @@ public:
     }
 };
 
+class MyExceptionBase{
+public:
+    ~MyExceptionBase(){
+        cout<<"Delete MyExceptionBase"<<endl;
+    }
+};
+
+class MyExceptionDerived: public MyExceptionBase{
+public:
+    ~MyExceptionDerived(){
+        cout<<"Delete MyExceptionDerived"<<endl;
+    }
+};
+
+
+void f(MyExceptionBase& e){
+    cout<<"throw the base"<<endl;
+}
+
+
+class Base{
+public:
+    Base(){
+        cout<<"Base"<<endl;
+    }
+    ~Base(){
+        cout<<"Base"<<endl;
+    }
+};
+
+class Member{
+public:
+    Member(){
+        cout<<"Member"<<endl;
+    }
+    ~Member(){
+        cout<<"Member"<<endl;
+    }
+};
+
+class Derived: public Base{
+private:
+    Member m;
+public:
+    Derived(){
+        cout<<"Derived"<<endl;
+        throw -1;
+    }
+    ~Derived(){
+        cout<<"Derived"<<endl;
+    }
+};
+
+//int main (){
+//    Derived * d;
+//    try{
+//        d=new Derived;
+//        cout<<"!"<<endl;
+//    }catch(...){
+//        
+//        cout<<"------------catch"<<endl;
+//    }
+//    cout<<"!"<<endl;
+//}
+
 //int main(){
 ////    Champion a;
 ////    Champion b;
@@ -97,5 +164,17 @@ public:
 //    cout<<s<<endl;
 //    cout<<a<<endl;
 //    cout<<c<<endl;
+//}
+//int main(){
+////    string a = "aacd";
+////    cout<<a<<endl;
+////    a[1]='b';
+////    cout<<a<<endl;
+////    a[1]='c';
+////    cout<<a<<endl;
+//    int a[6]={0,1,2,3,4,5};
+//    int *p=a;
+//    int ** e=&p;
+//    cout<<e[0][5]<<endl;
 //}
 
