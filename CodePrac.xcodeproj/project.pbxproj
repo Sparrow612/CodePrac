@@ -50,6 +50,7 @@
 		9FA44637245E8C80001797E2 /* maxSubArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FA44636245E8C80001797E2 /* maxSubArray.cpp */; };
 		9FA49B60245BFC1400084243 /* mergeTwoLists.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FA49B5F245BFC1400084243 /* mergeTwoLists.cpp */; };
 		9FA49B62245C631300084243 /* findMedianSortedArrays.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FA49B61245C631300084243 /* findMedianSortedArrays.cpp */; };
+		9FAD36A2248B517900F93C30 /* SortedStack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FAD36A1248B517900F93C30 /* SortedStack.cpp */; };
 		9FB24B9D243CB1D70060AB80 /* maxrectangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FB24B9C243CB1D70060AB80 /* maxrectangle.cpp */; };
 		9FB24B9F243CBBA90060AB80 /* permutation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FB24B9E243CBBA90060AB80 /* permutation.cpp */; };
 		9FB25B152441E5AB0059F248 /* superEggDrop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FB25B142441E5AB0059F248 /* superEggDrop.cpp */; };
@@ -123,6 +124,7 @@
 		9FA44636245E8C80001797E2 /* maxSubArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = maxSubArray.cpp; sourceTree = "<group>"; };
 		9FA49B5F245BFC1400084243 /* mergeTwoLists.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mergeTwoLists.cpp; sourceTree = "<group>"; };
 		9FA49B61245C631300084243 /* findMedianSortedArrays.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = findMedianSortedArrays.cpp; sourceTree = "<group>"; };
+		9FAD36A1248B517900F93C30 /* SortedStack.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SortedStack.cpp; sourceTree = "<group>"; };
 		9FB24B9C243CB1D70060AB80 /* maxrectangle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = maxrectangle.cpp; sourceTree = "<group>"; };
 		9FB24B9E243CBBA90060AB80 /* permutation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = permutation.cpp; sourceTree = "<group>"; };
 		9FB25B142441E5AB0059F248 /* superEggDrop.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = superEggDrop.cpp; sourceTree = "<group>"; };
@@ -216,6 +218,7 @@
 				9F263E35246970AF00B5F3BB /* shipWithinDays.cpp */,
 				9F4257602466F06100C5000F /* swapPairs.cpp */,
 				9F1E2A87246AA52F00592A4D /* smallestDifference.cpp */,
+				9FAD36A1248B517900F93C30 /* SortedStack.cpp */,
 				9F1BE1B92465B6470068D3E2 /* threeSumClosest.cpp */,
 				9F01A40D24645C20003A0D44 /* trapTheRain.cpp */,
 				9F1E2A7D246A80B300592A4D /* uniquePaths.cpp */,
@@ -332,6 +335,7 @@
 				9F028055245D1E4F00B0EAF5 /* myAtoi.cpp in Sources */,
 				9F7F72042489F869005977C8 /* plusOne.cpp in Sources */,
 				9F61FF482438CC2100FF3151 /* ispalindrome.cpp in Sources */,
+				9FAD36A2248B517900F93C30 /* SortedStack.cpp in Sources */,
 				9F4398B32487949B0064CAD4 /* combine.cpp in Sources */,
 				9F1BE1B2246507820068D3E2 /* maxSquare.cpp in Sources */,
 				9FD5C2F52466BC2000B7F65B /* mySqrt.cpp in Sources */,
