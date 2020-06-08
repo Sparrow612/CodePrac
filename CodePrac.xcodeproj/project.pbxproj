@@ -30,6 +30,7 @@
 		9F263E382469A8A700B5F3BB /* orangesRotting.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F263E372469A8A700B5F3BB /* orangesRotting.cpp */; };
 		9F263E3A246A412C00B5F3BB /* MinStack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F263E39246A412C00B5F3BB /* MinStack.cpp */; };
 		9F3424FF2467B69E009D3B61 /* reverseKGroup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F3424FE2467B69E009D3B61 /* reverseKGroup.cpp */; };
+		9F41D6B8248D39BF00614424 /* circularQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F41D6B7248D39BF00614424 /* circularQueue.cpp */; };
 		9F42575F2466D07900C5000F /* letterCombinations.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F42575E2466D07900C5000F /* letterCombinations.cpp */; };
 		9F4257612466F06100C5000F /* swapPairs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F4257602466F06100C5000F /* swapPairs.cpp */; };
 		9F4398AF248737730064CAD4 /* new21GAME.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F4398AE248737730064CAD4 /* new21GAME.cpp */; };
@@ -55,6 +56,8 @@
 		9FB24B9F243CBBA90060AB80 /* permutation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FB24B9E243CBBA90060AB80 /* permutation.cpp */; };
 		9FB25B152441E5AB0059F248 /* superEggDrop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FB25B142441E5AB0059F248 /* superEggDrop.cpp */; };
 		9FBA99FA247FDFF900A88172 /* LFUCache.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FBA99F9247FDFF900A88172 /* LFUCache.cpp */; };
+		9FBAFB29248E5F1900CC7DAD /* equationsPossible.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FBAFB28248E5F1900CC7DAD /* equationsPossible.cpp */; };
+		9FBAFB2B248E820200CC7DAD /* Twitter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FBAFB2A248E820200CC7DAD /* Twitter.cpp */; };
 		9FCF0042244095F400BB4F48 /* reverseWords.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FCF0041244095F400BB4F48 /* reverseWords.cpp */; };
 		9FCF00442440A8AF00BB4F48 /* shortestPalindrome.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FCF00432440A8AF00BB4F48 /* shortestPalindrome.cpp */; };
 		9FD5C2F52466BC2000B7F65B /* mySqrt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FD5C2F42466BC2000B7F65B /* mySqrt.cpp */; };
@@ -103,6 +106,7 @@
 		9F263E372469A8A700B5F3BB /* orangesRotting.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = orangesRotting.cpp; sourceTree = "<group>"; };
 		9F263E39246A412C00B5F3BB /* MinStack.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MinStack.cpp; sourceTree = "<group>"; };
 		9F3424FE2467B69E009D3B61 /* reverseKGroup.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = reverseKGroup.cpp; sourceTree = "<group>"; };
+		9F41D6B7248D39BF00614424 /* circularQueue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = circularQueue.cpp; sourceTree = "<group>"; };
 		9F42575E2466D07900C5000F /* letterCombinations.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = letterCombinations.cpp; sourceTree = "<group>"; };
 		9F4257602466F06100C5000F /* swapPairs.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = swapPairs.cpp; sourceTree = "<group>"; };
 		9F4398AE248737730064CAD4 /* new21GAME.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = new21GAME.cpp; sourceTree = "<group>"; };
@@ -129,6 +133,8 @@
 		9FB24B9E243CBBA90060AB80 /* permutation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = permutation.cpp; sourceTree = "<group>"; };
 		9FB25B142441E5AB0059F248 /* superEggDrop.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = superEggDrop.cpp; sourceTree = "<group>"; };
 		9FBA99F9247FDFF900A88172 /* LFUCache.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LFUCache.cpp; sourceTree = "<group>"; };
+		9FBAFB28248E5F1900CC7DAD /* equationsPossible.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = equationsPossible.cpp; sourceTree = "<group>"; };
+		9FBAFB2A248E820200CC7DAD /* Twitter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Twitter.cpp; sourceTree = "<group>"; };
 		9FCF0041244095F400BB4F48 /* reverseWords.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = reverseWords.cpp; sourceTree = "<group>"; };
 		9FCF00432440A8AF00BB4F48 /* shortestPalindrome.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = shortestPalindrome.cpp; sourceTree = "<group>"; };
 		9FD5C2F42466BC2000B7F65B /* mySqrt.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mySqrt.cpp; sourceTree = "<group>"; };
@@ -174,6 +180,8 @@
 			children = (
 				9F028050245D10B800B0EAF5 /* convertZ.cpp */,
 				9F4398B22487949B0064CAD4 /* combine.cpp */,
+				9F41D6B7248D39BF00614424 /* circularQueue.cpp */,
+				9FBAFB28248E5F1900CC7DAD /* equationsPossible.cpp */,
 				9FA49B61245C631300084243 /* findMedianSortedArrays.cpp */,
 				9F1BE1B5246542E50068D3E2 /* findSubstring.cpp */,
 				9F1E2A85246A989200592A4D /* findLongestWord.cpp */,
@@ -219,6 +227,7 @@
 				9F4257602466F06100C5000F /* swapPairs.cpp */,
 				9F1E2A87246AA52F00592A4D /* smallestDifference.cpp */,
 				9FAD36A1248B517900F93C30 /* SortedStack.cpp */,
+				9FBAFB2A248E820200CC7DAD /* Twitter.cpp */,
 				9F1BE1B92465B6470068D3E2 /* threeSumClosest.cpp */,
 				9F01A40D24645C20003A0D44 /* trapTheRain.cpp */,
 				9F1E2A7D246A80B300592A4D /* uniquePaths.cpp */,
@@ -306,10 +315,12 @@
 				9FCF00442440A8AF00BB4F48 /* shortestPalindrome.cpp in Sources */,
 				9F75FD6D243DF2BD004AC82D /* MovementRangeofRobot.cpp in Sources */,
 				9F1E2A80246A837100592A4D /* uniquePathsWithObstacles.cpp in Sources */,
+				9FBAFB29248E5F1900CC7DAD /* equationsPossible.cpp in Sources */,
 				9F028057245D536100B0EAF5 /* regularExpression.cpp in Sources */,
 				9FFAFD0B243F128400242D01 /* validbrackets.cpp in Sources */,
 				9FE93ECD24404649008A8BFF /* removeElements.cpp in Sources */,
 				9F1BE1BA2465B6470068D3E2 /* threeSumClosest.cpp in Sources */,
+				9FBAFB2B248E820200CC7DAD /* Twitter.cpp in Sources */,
 				9F4398AF248737730064CAD4 /* new21GAME.cpp in Sources */,
 				9F44D4D0244AADF7008A2DAF /* reArrangeLinkedList.cpp in Sources */,
 				9FDB6F3F24494EC100BD6D4E /* test.cpp in Sources */,
@@ -339,6 +350,7 @@
 				9F4398B32487949B0064CAD4 /* combine.cpp in Sources */,
 				9F1BE1B2246507820068D3E2 /* maxSquare.cpp in Sources */,
 				9FD5C2F52466BC2000B7F65B /* mySqrt.cpp in Sources */,
+				9F41D6B8248D39BF00614424 /* circularQueue.cpp in Sources */,
 				9F263E3A246A412C00B5F3BB /* MinStack.cpp in Sources */,
 				9FA44637245E8C80001797E2 /* maxSubArray.cpp in Sources */,
 				9FBA99FA247FDFF900A88172 /* LFUCache.cpp in Sources */,

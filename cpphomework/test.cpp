@@ -8,7 +8,7 @@
 
 #include <iostream>
 #include <string>
-#define maxl(a,b) (a)>(b)?(a):(b)
+#include <vector>
 
 using namespace std;
 
@@ -176,5 +176,10 @@ public:
 //    int *p=a;
 //    int ** e=&p;
 //    cout<<e[0][5]<<endl;
+//}
+//int main(){
+//    int res[0];
+//    int * end =res;
+//    cout<<(end-1>end)<<endl;
 //}
 
