@@ -52,6 +52,7 @@
 		9FA49B60245BFC1400084243 /* mergeTwoLists.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FA49B5F245BFC1400084243 /* mergeTwoLists.cpp */; };
 		9FA49B62245C631300084243 /* findMedianSortedArrays.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FA49B61245C631300084243 /* findMedianSortedArrays.cpp */; };
 		9FAD36A2248B517900F93C30 /* SortedStack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FAD36A1248B517900F93C30 /* SortedStack.cpp */; };
+		9FADBB61248F3B0D001BAC01 /* DinnerPlates.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FADBB60248F3B0D001BAC01 /* DinnerPlates.cpp */; };
 		9FB24B9D243CB1D70060AB80 /* maxrectangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FB24B9C243CB1D70060AB80 /* maxrectangle.cpp */; };
 		9FB24B9F243CBBA90060AB80 /* permutation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FB24B9E243CBBA90060AB80 /* permutation.cpp */; };
 		9FB25B152441E5AB0059F248 /* superEggDrop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FB25B142441E5AB0059F248 /* superEggDrop.cpp */; };
@@ -129,6 +130,7 @@
 		9FA49B5F245BFC1400084243 /* mergeTwoLists.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mergeTwoLists.cpp; sourceTree = "<group>"; };
 		9FA49B61245C631300084243 /* findMedianSortedArrays.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = findMedianSortedArrays.cpp; sourceTree = "<group>"; };
 		9FAD36A1248B517900F93C30 /* SortedStack.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SortedStack.cpp; sourceTree = "<group>"; };
+		9FADBB60248F3B0D001BAC01 /* DinnerPlates.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DinnerPlates.cpp; sourceTree = "<group>"; };
 		9FB24B9C243CB1D70060AB80 /* maxrectangle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = maxrectangle.cpp; sourceTree = "<group>"; };
 		9FB24B9E243CBBA90060AB80 /* permutation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = permutation.cpp; sourceTree = "<group>"; };
 		9FB25B142441E5AB0059F248 /* superEggDrop.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = superEggDrop.cpp; sourceTree = "<group>"; };
@@ -181,6 +183,7 @@
 				9F028050245D10B800B0EAF5 /* convertZ.cpp */,
 				9F4398B22487949B0064CAD4 /* combine.cpp */,
 				9F41D6B7248D39BF00614424 /* circularQueue.cpp */,
+				9FADBB60248F3B0D001BAC01 /* DinnerPlates.cpp */,
 				9FBAFB28248E5F1900CC7DAD /* equationsPossible.cpp */,
 				9FA49B61245C631300084243 /* findMedianSortedArrays.cpp */,
 				9F1BE1B5246542E50068D3E2 /* findSubstring.cpp */,
@@ -313,6 +316,7 @@
 				9F263E3424696CA700B5F3BB /* myPow.cpp in Sources */,
 				9F42575F2466D07900C5000F /* letterCombinations.cpp in Sources */,
 				9FCF00442440A8AF00BB4F48 /* shortestPalindrome.cpp in Sources */,
+				9FADBB61248F3B0D001BAC01 /* DinnerPlates.cpp in Sources */,
 				9F75FD6D243DF2BD004AC82D /* MovementRangeofRobot.cpp in Sources */,
 				9F1E2A80246A837100592A4D /* uniquePathsWithObstacles.cpp in Sources */,
 				9FBAFB29248E5F1900CC7DAD /* equationsPossible.cpp in Sources */,
