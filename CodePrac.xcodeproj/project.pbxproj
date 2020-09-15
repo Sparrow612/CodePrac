@@ -40,6 +40,7 @@
 		9F44D4D0244AADF7008A2DAF /* reArrangeLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F44D4CD244AADF6008A2DAF /* reArrangeLinkedList.cpp */; };
 		9F44D4D1244AADF7008A2DAF /* encryption.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F44D4CE244AADF6008A2DAF /* encryption.cpp */; };
 		9F44D4D2244AADF7008A2DAF /* mergeLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F44D4CF244AADF6008A2DAF /* mergeLinkedList.cpp */; };
+		9F5FEE992510B7C900D48672 /* exponentiation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F5FEE982510B7C900D48672 /* exponentiation.cpp */; };
 		9F61FF482438CC2100FF3151 /* ispalindrome.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F61FF472438CC2100FF3151 /* ispalindrome.cpp */; };
 		9F61FF502438D10300FF3151 /* sumof2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F61FF4E2438D10300FF3151 /* sumof2.cpp */; };
 		9F6C4D9C250519FB000F51AC /* strStr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F6C4D9B250519FB000F51AC /* strStr.cpp */; };
@@ -123,6 +124,7 @@
 		9F44D4CD244AADF6008A2DAF /* reArrangeLinkedList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = reArrangeLinkedList.cpp; sourceTree = "<group>"; };
 		9F44D4CE244AADF6008A2DAF /* encryption.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = encryption.cpp; sourceTree = "<group>"; };
 		9F44D4CF244AADF6008A2DAF /* mergeLinkedList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mergeLinkedList.cpp; sourceTree = "<group>"; };
+		9F5FEE982510B7C900D48672 /* exponentiation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = exponentiation.cpp; sourceTree = "<group>"; };
 		9F61FF442438CC2100FF3151 /* CodePrac */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodePrac; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F61FF472438CC2100FF3151 /* ispalindrome.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ispalindrome.cpp; sourceTree = "<group>"; };
 		9F61FF4E2438D10300FF3151 /* sumof2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sumof2.cpp; sourceTree = "<group>"; };
@@ -171,9 +173,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F5FEE972510B78F00D48672 /* Bailian */ = {
+			isa = PBXGroup;
+			children = (
+				9F5FEE982510B7C900D48672 /* exponentiation.cpp */,
+			);
+			path = Bailian;
+			sourceTree = "<group>";
+		};
 		9F61FF3B2438CC2100FF3151 = {
 			isa = PBXGroup;
 			children = (
+				9F5FEE972510B78F00D48672 /* Bailian */,
 				9FE0EEE82445867F0043DA8B /* cpphomework */,
 				9F61FF462438CC2100FF3151 /* leetcodeprac */,
 				9F61FF452438CC2100FF3151 /* Products */,
@@ -331,6 +342,7 @@
 				9F4257612466F06100C5000F /* swapPairs.cpp in Sources */,
 				9F028051245D10B800B0EAF5 /* convertZ.cpp in Sources */,
 				9FADBB65248F9D60001BAC01 /* CQueue.cpp in Sources */,
+				9F5FEE992510B7C900D48672 /* exponentiation.cpp in Sources */,
 				9FADBB63248F9ADB001BAC01 /* TripleInOne.cpp in Sources */,
 				9F263E3424696CA700B5F3BB /* myPow.cpp in Sources */,
 				9F42575F2466D07900C5000F /* letterCombinations.cpp in Sources */,
