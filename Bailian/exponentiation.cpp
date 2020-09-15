@@ -65,28 +65,28 @@ void print(short * res, int point){
     cout<<result<<endl;
 }
 
-int main(){
-    
-    string base;
-    int exp;
-    
-    while (cin>>base>>exp){
-        short result[MAX_VALUE] = {}, factor[MAX_VALUE] = {}; //初始化为0
-        int point = (int)base.find('.');
-        if (point != string::npos)
-            point = (5-point)*exp;  // 求幂最后的点位
-        else point = 0;
-        
-        int cur = INPUT_SIZE -1;
-        
-        for (int i = 0;i<INPUT_SIZE-1;i++){
-            if (base[cur]=='.') cur--;
-            result[i] = factor[i] = base[cur--] - '0'; // 装入数组
-        } // 初始化完成
-       
-        multiple(result, factor, exp - 1); // 乘exp-1次即可
-        
-        print(result, point);
-        
-    }
-}
+//int main(){
+//
+//    string base;
+//    int exp;
+//
+//    while (cin>>base>>exp){
+//        short result[MAX_VALUE] = {}, factor[MAX_VALUE] = {}; //初始化为0
+//        int point = (int)base.find('.');
+//        if (point != string::npos)
+//            point = (5-point)*exp;  // 求幂最后的点位
+//        else point = 0;
+//
+//        int cur = INPUT_SIZE -1;
+//
+//        for (int i = 0;i<INPUT_SIZE-1;i++){
+//            if (base[cur]=='.') cur--;
+//            result[i] = factor[i] = base[cur--] - '0'; // 装入数组
+//        } // 初始化完成
+//
+//        multiple(result, factor, exp - 1); // 乘exp-1次即可
+//
+//        print(result, point);
+//
+//    }
+//}
