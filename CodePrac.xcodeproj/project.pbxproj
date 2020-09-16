@@ -14,6 +14,7 @@
 		9F028053245D191E00B0EAF5 /* reverseInt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F028052245D191E00B0EAF5 /* reverseInt.cpp */; };
 		9F028055245D1E4F00B0EAF5 /* myAtoi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F028054245D1E4F00B0EAF5 /* myAtoi.cpp */; };
 		9F028057245D536100B0EAF5 /* regularExpression.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F028056245D536100B0EAF5 /* regularExpression.cpp */; };
+		9F0A758B2511A20E002FAC0C /* telephoneNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F0A758A2511A20E002FAC0C /* telephoneNumber.cpp */; };
 		9F1BE1B2246507820068D3E2 /* maxSquare.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F1BE1B1246507820068D3E2 /* maxSquare.cpp */; };
 		9F1BE1B4246512E60068D3E2 /* maximalRectangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F1BE1B3246512E60068D3E2 /* maximalRectangle.cpp */; };
 		9F1BE1B6246542E50068D3E2 /* findSubstring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F1BE1B5246542E50068D3E2 /* findSubstring.cpp */; };
@@ -97,6 +98,7 @@
 		9F028052245D191E00B0EAF5 /* reverseInt.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = reverseInt.cpp; sourceTree = "<group>"; };
 		9F028054245D1E4F00B0EAF5 /* myAtoi.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = myAtoi.cpp; sourceTree = "<group>"; };
 		9F028056245D536100B0EAF5 /* regularExpression.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = regularExpression.cpp; sourceTree = "<group>"; };
+		9F0A758A2511A20E002FAC0C /* telephoneNumber.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = telephoneNumber.cpp; sourceTree = "<group>"; };
 		9F1BE1B1246507820068D3E2 /* maxSquare.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = maxSquare.cpp; sourceTree = "<group>"; };
 		9F1BE1B3246512E60068D3E2 /* maximalRectangle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = maximalRectangle.cpp; sourceTree = "<group>"; };
 		9F1BE1B5246542E50068D3E2 /* findSubstring.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = findSubstring.cpp; sourceTree = "<group>"; };
@@ -177,6 +179,7 @@
 			isa = PBXGroup;
 			children = (
 				9F5FEE982510B7C900D48672 /* exponentiation.cpp */,
+				9F0A758A2511A20E002FAC0C /* telephoneNumber.cpp */,
 			);
 			path = Bailian;
 			sourceTree = "<group>";
@@ -395,6 +398,7 @@
 				9FCF0042244095F400BB4F48 /* reverseWords.cpp in Sources */,
 				9F61FF502438D10300FF3151 /* sumof2.cpp in Sources */,
 				9FDB6F3D2448821300BD6D4E /* matrixMultiplication.cpp in Sources */,
+				9F0A758B2511A20E002FAC0C /* telephoneNumber.cpp in Sources */,
 				9F8D4209243B85E200571408 /* longestnorepeat.cpp in Sources */,
 				9F6C4D9C250519FB000F51AC /* strStr.cpp in Sources */,
 				9F7F72022489D2BA005977C8 /* spiralOrder.cpp in Sources */,
