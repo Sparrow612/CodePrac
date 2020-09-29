@@ -59,30 +59,30 @@ void buildMap(){
     }
 }
 
-int main(){
-    buildMap();
-
-    int num;
-    cin>>num;
-    string src;
-    for (int i=0;i<num;i++){
-        cin>>src;
-        translate(src);
-    }
-
-    sort(tels.begin(), tels.end());
-
-    bool flag = false;
-
-    for (string& s: tels){
-        int r = stoi(s);
-        if (doc[r] > 1){
-            flag = true;
-            print(s, doc[r]);
-        }
-    }
-    
-    if (!flag) {
-        cout<<"No duplicates."<<endl;
-    }
-}
+//int main(){
+//    buildMap();
+//
+//    int num;
+//    cin>>num;
+//    string src;
+//    for (int i=0;i<num;i++){
+//        cin>>src;
+//        translate(src);
+//    }
+//
+//    sort(tels.begin(), tels.end());
+//
+//    bool flag = false;
+//
+//    for (string& s: tels){
+//        int r = stoi(s);
+//        if (doc[r] > 1){
+//            flag = true;
+//            print(s, doc[r]);
+//        }
+//    }
+//    
+//    if (!flag) {
+//        cout<<"No duplicates."<<endl;
+//    }
+//}

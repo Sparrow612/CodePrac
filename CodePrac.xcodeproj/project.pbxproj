@@ -15,6 +15,9 @@
 		9F028055245D1E4F00B0EAF5 /* myAtoi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F028054245D1E4F00B0EAF5 /* myAtoi.cpp */; };
 		9F028057245D536100B0EAF5 /* regularExpression.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F028056245D536100B0EAF5 /* regularExpression.cpp */; };
 		9F0A758B2511A20E002FAC0C /* telephoneNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F0A758A2511A20E002FAC0C /* telephoneNumber.cpp */; };
+		9F0E01A125230318004AE546 /* BigDataCalculator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F0E01A025230318004AE546 /* BigDataCalculator.cpp */; };
+		9F0E01A62523032C004AE546 /* BigDataAdd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F0E01A42523032C004AE546 /* BigDataAdd.cpp */; };
+		9F0E01A925230351004AE546 /* BigDataMul.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F0E01A825230351004AE546 /* BigDataMul.cpp */; };
 		9F1BE1B2246507820068D3E2 /* maxSquare.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F1BE1B1246507820068D3E2 /* maxSquare.cpp */; };
 		9F1BE1B4246512E60068D3E2 /* maximalRectangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F1BE1B3246512E60068D3E2 /* maximalRectangle.cpp */; };
 		9F1BE1B6246542E50068D3E2 /* findSubstring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F1BE1B5246542E50068D3E2 /* findSubstring.cpp */; };
@@ -99,6 +102,9 @@
 		9F028054245D1E4F00B0EAF5 /* myAtoi.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = myAtoi.cpp; sourceTree = "<group>"; };
 		9F028056245D536100B0EAF5 /* regularExpression.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = regularExpression.cpp; sourceTree = "<group>"; };
 		9F0A758A2511A20E002FAC0C /* telephoneNumber.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = telephoneNumber.cpp; sourceTree = "<group>"; };
+		9F0E01A025230318004AE546 /* BigDataCalculator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BigDataCalculator.cpp; sourceTree = "<group>"; };
+		9F0E01A42523032C004AE546 /* BigDataAdd.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BigDataAdd.cpp; sourceTree = "<group>"; };
+		9F0E01A825230351004AE546 /* BigDataMul.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BigDataMul.cpp; sourceTree = "<group>"; };
 		9F1BE1B1246507820068D3E2 /* maxSquare.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = maxSquare.cpp; sourceTree = "<group>"; };
 		9F1BE1B3246512E60068D3E2 /* maximalRectangle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = maximalRectangle.cpp; sourceTree = "<group>"; };
 		9F1BE1B5246542E50068D3E2 /* findSubstring.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = findSubstring.cpp; sourceTree = "<group>"; };
@@ -175,6 +181,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F0E019F252302E6004AE546 /* baisc */ = {
+			isa = PBXGroup;
+			children = (
+				9F0E01A025230318004AE546 /* BigDataCalculator.cpp */,
+				9F0E01A42523032C004AE546 /* BigDataAdd.cpp */,
+				9F0E01A825230351004AE546 /* BigDataMul.cpp */,
+			);
+			path = baisc;
+			sourceTree = "<group>";
+		};
 		9F5FEE972510B78F00D48672 /* Bailian */ = {
 			isa = PBXGroup;
 			children = (
@@ -187,6 +203,7 @@
 		9F61FF3B2438CC2100FF3151 = {
 			isa = PBXGroup;
 			children = (
+				9F0E019F252302E6004AE546 /* baisc */,
 				9F5FEE972510B78F00D48672 /* Bailian */,
 				9FE0EEE82445867F0043DA8B /* cpphomework */,
 				9F61FF462438CC2100FF3151 /* leetcodeprac */,
@@ -357,6 +374,7 @@
 				9FBAFB29248E5F1900CC7DAD /* equationsPossible.cpp in Sources */,
 				9F028057245D536100B0EAF5 /* regularExpression.cpp in Sources */,
 				9FFAFD0B243F128400242D01 /* validbrackets.cpp in Sources */,
+				9F0E01A125230318004AE546 /* BigDataCalculator.cpp in Sources */,
 				9FE93ECD24404649008A8BFF /* removeElements.cpp in Sources */,
 				9FADBB67248FA2AC001BAC01 /* StackOfPlates.cpp in Sources */,
 				9F1BE1BA2465B6470068D3E2 /* threeSumClosest.cpp in Sources */,
@@ -381,6 +399,7 @@
 				9F01A40E24645C20003A0D44 /* trapTheRain.cpp in Sources */,
 				9F44D4D2244AADF7008A2DAF /* mergeLinkedList.cpp in Sources */,
 				9F028053245D191E00B0EAF5 /* reverseInt.cpp in Sources */,
+				9F0E01A925230351004AE546 /* BigDataMul.cpp in Sources */,
 				9F1E2A86246A989200592A4D /* findLongestWord.cpp in Sources */,
 				9FB24B9F243CBBA90060AB80 /* permutation.cpp in Sources */,
 				9F028055245D1E4F00B0EAF5 /* myAtoi.cpp in Sources */,
@@ -393,6 +412,7 @@
 				9F41D6B8248D39BF00614424 /* circularQueue.cpp in Sources */,
 				9F263E3A246A412C00B5F3BB /* MinStack.cpp in Sources */,
 				9FA44637245E8C80001797E2 /* maxSubArray.cpp in Sources */,
+				9F0E01A62523032C004AE546 /* BigDataAdd.cpp in Sources */,
 				9FBA99FA247FDFF900A88172 /* LFUCache.cpp in Sources */,
 				9F7DC2672455833F00FD794E /* mergeKLists.cpp in Sources */,
 				9FCF0042244095F400BB4F48 /* reverseWords.cpp in Sources */,
