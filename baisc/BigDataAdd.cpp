@@ -14,17 +14,14 @@ const int LEN = 22;
 void add(short * adder_1, short* adder_2, short * res){
     
     bool positive=false, negative=false;
-    if(!adder_1[LEN-1]&&!adder_2[LEN-1]) positive = true;
-    else if (adder_1[LEN-1]&&adder_2[LEN-1]) negative = true;
+    if(!adder_1[LEN-1]&&!adder_2[LEN-1])
+        positive = true;
+    else if (adder_1[LEN-1]&&adder_2[LEN-1])
+        negative = true;
+    
     for (int i=0;i<LEN-1;i++){
         res[i] = adder_1[i]+adder_2[i];
     }
-    
-    if (negative){
-        for (int i=0;i<LEN-1;i++){
-            res[i] = -res[i];
-        }
-    }// 两个负数相加
     
     if (negative || positive){
         for (int i=0;i<LEN-2;i++){
@@ -32,12 +29,17 @@ void add(short * adder_1, short* adder_2, short * res){
             res[i] = res[i] % 10;
             res[i+1] += upload;
         } // 处理进位
-    } // 一正一负不需要考虑进位
-    
-    if (positive || negative) {
-        if (negative) res[LEN-1] = 1;
+        
+        if (negative) {
+            for (int i=0;i<LEN-1;i++){
+                res[i] = -res[i];
+            }
+            res[LEN-1] = 1;
+        } // 把负数每一位修正成正常数字，更新符号位
         return;
-    } // 对于可以直接判断正负的情况，不用下面的处理
+    } // 一正一负不需要考虑进位
+    // 对于可以直接判断正负的情况，不用下面的处理
+   
     for (int i=0;res[LEN-1]!=1&&i<LEN-2;i++){
         int amount = 0;
         int t = 0;
