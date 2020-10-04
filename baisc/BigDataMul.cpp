@@ -56,22 +56,22 @@ void push(char * src, short * des){
     }
 }
 
-int main(){
-    char a[MAX_LEN], b[MAX_LEN];  // 两个因数
-    short factor_1[MAX_LEN] = {}, factor_2[MAX_LEN] ={};
-    cin>>a>>b;
-    push(a, factor_1);
-    push(b, factor_2);
-    short res[MAX_LEN_OF_RES] = {};
-    multiply(factor_1, factor_2, res);
-    
-    if (res[MAX_LEN_OF_RES-1]) cout<<'-';
-    int pos = MAX_LEN_OF_RES - 2;
-    while (!res[pos]) {
-        pos--;
-    }
-    for (int i=pos;i>=0;i--){
-        cout<<res[i];
-    }
-    cout<<endl;
-}
+//int main(){
+//    char a[MAX_LEN], b[MAX_LEN];  // 两个因数
+//    short factor_1[MAX_LEN] = {}, factor_2[MAX_LEN] ={};
+//    cin>>a>>b;
+//    push(a, factor_1);
+//    push(b, factor_2);
+//    short res[MAX_LEN_OF_RES] = {};
+//    multiply(factor_1, factor_2, res);
+//    
+//    if (res[MAX_LEN_OF_RES-1]) cout<<'-';
+//    int pos = MAX_LEN_OF_RES - 2;
+//    while (!res[pos]) {
+//        pos--;
+//    }
+//    for (int i=pos;i>=0;i--){
+//        cout<<res[i];
+//    }
+//    cout<<endl;
+//}

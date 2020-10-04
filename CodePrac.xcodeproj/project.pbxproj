@@ -54,6 +54,7 @@
 		9F7DC2672455833F00FD794E /* mergeKLists.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F7DC2662455833F00FD794E /* mergeKLists.cpp */; };
 		9F7F72022489D2BA005977C8 /* spiralOrder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F7F72012489D2BA005977C8 /* spiralOrder.cpp */; };
 		9F7F72042489F869005977C8 /* plusOne.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F7F72032489F869005977C8 /* plusOne.cpp */; };
+		9F8B58BF252415C9004751F0 /* HeadPoseEstimator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F8B58BE252415C9004751F0 /* HeadPoseEstimator.cpp */; };
 		9F8D4209243B85E200571408 /* longestnorepeat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F8D4208243B85E200571408 /* longestnorepeat.cpp */; };
 		9FA44637245E8C80001797E2 /* maxSubArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FA44636245E8C80001797E2 /* maxSubArray.cpp */; };
 		9FA49B60245BFC1400084243 /* mergeTwoLists.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FA49B5F245BFC1400084243 /* mergeTwoLists.cpp */; };
@@ -143,6 +144,7 @@
 		9F7DC2662455833F00FD794E /* mergeKLists.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mergeKLists.cpp; sourceTree = "<group>"; };
 		9F7F72012489D2BA005977C8 /* spiralOrder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = spiralOrder.cpp; sourceTree = "<group>"; };
 		9F7F72032489F869005977C8 /* plusOne.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = plusOne.cpp; sourceTree = "<group>"; };
+		9F8B58BE252415C9004751F0 /* HeadPoseEstimator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HeadPoseEstimator.cpp; sourceTree = "<group>"; };
 		9F8D4208243B85E200571408 /* longestnorepeat.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = longestnorepeat.cpp; sourceTree = "<group>"; };
 		9FA44636245E8C80001797E2 /* maxSubArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = maxSubArray.cpp; sourceTree = "<group>"; };
 		9FA49B5F245BFC1400084243 /* mergeTwoLists.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mergeTwoLists.cpp; sourceTree = "<group>"; };
@@ -203,6 +205,7 @@
 		9F61FF3B2438CC2100FF3151 = {
 			isa = PBXGroup;
 			children = (
+				9F8B58BD252415AC004751F0 /* Others */,
 				9F0E019F252302E6004AE546 /* baisc */,
 				9F5FEE972510B78F00D48672 /* Bailian */,
 				9FE0EEE82445867F0043DA8B /* cpphomework */,
@@ -284,6 +287,14 @@
 				9FFAFD0A243F128400242D01 /* validbrackets.cpp */,
 			);
 			path = leetcodeprac;
+			sourceTree = "<group>";
+		};
+		9F8B58BD252415AC004751F0 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				9F8B58BE252415C9004751F0 /* HeadPoseEstimator.cpp */,
+			);
+			path = Others;
 			sourceTree = "<group>";
 		};
 		9FE0EEE82445867F0043DA8B /* cpphomework */ = {
@@ -430,6 +441,7 @@
 				9F3424FF2467B69E009D3B61 /* reverseKGroup.cpp in Sources */,
 				9FFAFD0D243F168200242D01 /* generateParenthesis.cpp in Sources */,
 				9F1E2A88246AA52F00592A4D /* smallestDifference.cpp in Sources */,
+				9F8B58BF252415C9004751F0 /* HeadPoseEstimator.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
