@@ -55,18 +55,19 @@ void add(short * adder_1, short* adder_2, short * res){
     // crx自创的退位算法，高位负数一步一步往低位退
     if (res[LEN-2] < 0){
         res[LEN-1] = 1;
-        for (int i = LEN-1;i>0;i--){
+        for (int i = LEN-2;i>0;i--){
             if (res[i-1]>=0){
                 res[i-1] -= 10;
                 res[i]++;
-            }
+            }//=0也要减去，防止后面的正数被0隔断，否则10-1000结果就是-1，0，1，0
             res[i] = -res[i];
         }
-        if (res[0]==-10) {
-            res[1]++;
-            res[0] = 0;
-        } // 消除多余的退位
         res[0] = -res[0];
+        int cur = 0;
+        if (res[cur]>=10) {
+            res[cur] = 0;
+            res[++cur]++;
+        }
     }
 }
 
@@ -89,22 +90,22 @@ void push_into_array(char * src, short * des){
     }
 }
 
-int main(){
-    char a[LEN], b[LEN];  // 两个因数
-    short factor_1[LEN] = {}, factor_2[LEN] = {};
-    cin>>a>>b;
-    push_into_array(a, factor_1);
-    push_into_array(b, factor_2);
-    short res[LEN] = {};
-    add(factor_1, factor_2, res);
-    if (res[LEN-1]) cout<<'-';
-    int pos = LEN - 2;
-    while (!res[pos]) {
-        pos--;
-    }
-    for (int i=pos;i>=0;i--){
-        cout<<res[i];
-    }
-    cout<<endl;
-}
+//int main(){
+//    char a[LEN], b[LEN];  // 两个因数
+//    short factor_1[LEN] = {}, factor_2[LEN] = {};
+//    cin>>a>>b;
+//    push_into_array(a, factor_1);
+//    push_into_array(b, factor_2);
+//    short res[LEN] = {};
+//    add(factor_1, factor_2, res);
+//    if (res[LEN-1]) cout<<'-';
+//    int pos = LEN - 2;
+//    while (!res[pos]) {
+//        pos--;
+//    }
+//    for (int i=pos;i>=0;i--){
+//        cout<<res[i];
+//    }
+//    cout<<endl;
+//}
 

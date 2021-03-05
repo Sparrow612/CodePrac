@@ -18,12 +18,10 @@ void multiply(short * factor_1, short * factor_2, short * res){
     short advance[MAX_LEN_OF_RES] = {};  // 存放中间结果的数组
     res[MAX_LEN_OF_RES-1] = factor_1[MAX_LEN-1]==factor_2[MAX_LEN-1]?0:1; // 首先确定乘法的符号
     
-    int start = 0;
     for (int i = 0;i<MAX_LEN-1;i++){
         for (int j = 0;j<MAX_LEN-1;j++){
-            advance[j + start] += factor_1[j]*factor_2[i];
+            advance[j + i] += factor_1[j]*factor_2[i];
         }
-        start++;
     }
     
     for (int k = 0;k<MAX_LEN_OF_RES-2;k++){
@@ -64,7 +62,7 @@ void push(char * src, short * des){
 //    push(b, factor_2);
 //    short res[MAX_LEN_OF_RES] = {};
 //    multiply(factor_1, factor_2, res);
-//    
+//
 //    if (res[MAX_LEN_OF_RES-1]) cout<<'-';
 //    int pos = MAX_LEN_OF_RES - 2;
 //    while (!res[pos]) {
