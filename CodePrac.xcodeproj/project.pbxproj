@@ -60,6 +60,8 @@
 		9F8B58BF252415C9004751F0 /* HeadPoseEstimator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F8B58BE252415C9004751F0 /* HeadPoseEstimator.cpp */; };
 		9F8D4209243B85E200571408 /* longestnorepeat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F8D4208243B85E200571408 /* longestnorepeat.cpp */; };
 		9F9AE21225F375FE00D96445 /* balanceBST.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F9AE21125F375FE00D96445 /* balanceBST.cpp */; };
+		9F9AE21625F3A5B300D96445 /* convertBST.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F9AE21525F3A5B300D96445 /* convertBST.cpp */; };
+		9F9AE21925F3AC0100D96445 /* isAVL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F9AE21825F3AC0100D96445 /* isAVL.cpp */; };
 		9FA44637245E8C80001797E2 /* maxSubArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FA44636245E8C80001797E2 /* maxSubArray.cpp */; };
 		9FA49B60245BFC1400084243 /* mergeTwoLists.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FA49B5F245BFC1400084243 /* mergeTwoLists.cpp */; };
 		9FA49B62245C631300084243 /* findMedianSortedArrays.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FA49B61245C631300084243 /* findMedianSortedArrays.cpp */; };
@@ -159,6 +161,8 @@
 		9F8B58BE252415C9004751F0 /* HeadPoseEstimator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HeadPoseEstimator.cpp; sourceTree = "<group>"; };
 		9F8D4208243B85E200571408 /* longestnorepeat.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = longestnorepeat.cpp; sourceTree = "<group>"; };
 		9F9AE21125F375FE00D96445 /* balanceBST.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = balanceBST.cpp; sourceTree = "<group>"; };
+		9F9AE21525F3A5B300D96445 /* convertBST.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = convertBST.cpp; sourceTree = "<group>"; };
+		9F9AE21825F3AC0100D96445 /* isAVL.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = isAVL.cpp; sourceTree = "<group>"; };
 		9FA44636245E8C80001797E2 /* maxSubArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = maxSubArray.cpp; sourceTree = "<group>"; };
 		9FA49B5F245BFC1400084243 /* mergeTwoLists.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mergeTwoLists.cpp; sourceTree = "<group>"; };
 		9FA49B61245C631300084243 /* findMedianSortedArrays.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = findMedianSortedArrays.cpp; sourceTree = "<group>"; };
@@ -236,6 +240,7 @@
 				9F9AE21125F375FE00D96445 /* balanceBST.cpp */,
 				9F4398B22487949B0064CAD4 /* combine.cpp */,
 				9FAE017025F35A1500BCD4FB /* convertBiNode.cpp */,
+				9F9AE21525F3A5B300D96445 /* convertBST.cpp */,
 				9F028050245D10B800B0EAF5 /* convertZ.cpp */,
 				9F41D6B7248D39BF00614424 /* circularQueue.cpp */,
 				9FADBB64248F9D60001BAC01 /* CQueue.cpp */,
@@ -247,6 +252,7 @@
 				9F1E2A85246A989200592A4D /* findLongestWord.cpp */,
 				9FFAFD0C243F168200242D01 /* generateParenthesis.cpp */,
 				9F61FF472438CC2100FF3151 /* ispalindrome.cpp */,
+				9F9AE21825F3AC0100D96445 /* isAVL.cpp */,
 				9F1BE1B72465455A0068D3E2 /* longestCommonPrefix.cpp */,
 				9F8D4208243B85E200571408 /* longestnorepeat.cpp */,
 				9F75FD6E243E02F6004AC82D /* longestPalindrome.cpp */,
@@ -399,6 +405,7 @@
 				9F75F44E247FFEEA00C0C6AB /* removeNthFromEnd.cpp in Sources */,
 				9F4257612466F06100C5000F /* swapPairs.cpp in Sources */,
 				9F028051245D10B800B0EAF5 /* convertZ.cpp in Sources */,
+				9F9AE21625F3A5B300D96445 /* convertBST.cpp in Sources */,
 				9FADBB65248F9D60001BAC01 /* CQueue.cpp in Sources */,
 				9F5FEE992510B7C900D48672 /* exponentiation.cpp in Sources */,
 				9FADBB63248F9ADB001BAC01 /* TripleInOne.cpp in Sources */,
@@ -472,6 +479,7 @@
 				9F1E2A84246A8C6400592A4D /* minFallingPathSum.cpp in Sources */,
 				9FA49B60245BFC1400084243 /* mergeTwoLists.cpp in Sources */,
 				9F1BE1B6246542E50068D3E2 /* findSubstring.cpp in Sources */,
+				9F9AE21925F3AC0100D96445 /* isAVL.cpp in Sources */,
 				9F01A40C246448FD003A0D44 /* sumof4.cpp in Sources */,
 				9FB25B152441E5AB0059F248 /* superEggDrop.cpp in Sources */,
 				9F3424FF2467B69E009D3B61 /* reverseKGroup.cpp in Sources */,
