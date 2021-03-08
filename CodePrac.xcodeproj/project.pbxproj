@@ -33,6 +33,8 @@
 		9F263E382469A8A700B5F3BB /* orangesRotting.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F263E372469A8A700B5F3BB /* orangesRotting.cpp */; };
 		9F263E3A246A412C00B5F3BB /* MinStack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F263E39246A412C00B5F3BB /* MinStack.cpp */; };
 		9F318F5B24EFB78800C7BE3E /* test2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F318F5924EFB78800C7BE3E /* test2.cpp */; };
+		9F33C2D625F64D64003798C5 /* replaceSpace.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F33C2D525F64D64003798C5 /* replaceSpace.cpp */; };
+		9F33C2D925F65197003798C5 /* buildTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F33C2D825F65197003798C5 /* buildTree.cpp */; };
 		9F3424FF2467B69E009D3B61 /* reverseKGroup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F3424FE2467B69E009D3B61 /* reverseKGroup.cpp */; };
 		9F41D6B8248D39BF00614424 /* circularQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F41D6B7248D39BF00614424 /* circularQueue.cpp */; };
 		9F42575F2466D07900C5000F /* letterCombinations.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F42575E2466D07900C5000F /* letterCombinations.cpp */; };
@@ -82,6 +84,7 @@
 		9FC9208125F1C16D004FAE5E /* myQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FC9208025F1C16D004FAE5E /* myQueue.cpp */; };
 		9FCF0042244095F400BB4F48 /* reverseWords.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FCF0041244095F400BB4F48 /* reverseWords.cpp */; };
 		9FCF00442440A8AF00BB4F48 /* shortestPalindrome.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FCF00432440A8AF00BB4F48 /* shortestPalindrome.cpp */; };
+		9FD3962725F6170600829530 /* findNumInMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FD3962625F6170600829530 /* findNumInMatrix.cpp */; };
 		9FD5C2F52466BC2000B7F65B /* mySqrt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FD5C2F42466BC2000B7F65B /* mySqrt.cpp */; };
 		9FDB6F3B244881F900BD6D4E /* doubleLink.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FDB6F3A244881F900BD6D4E /* doubleLink.cpp */; };
 		9FDB6F3D2448821300BD6D4E /* matrixMultiplication.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FDB6F3C2448821200BD6D4E /* matrixMultiplication.cpp */; };
@@ -133,6 +136,8 @@
 		9F263E39246A412C00B5F3BB /* MinStack.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MinStack.cpp; sourceTree = "<group>"; };
 		9F318F5924EFB78800C7BE3E /* test2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = test2.cpp; sourceTree = "<group>"; };
 		9F318F5A24EFB78800C7BE3E /* test2.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = test2.hpp; sourceTree = "<group>"; };
+		9F33C2D525F64D64003798C5 /* replaceSpace.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = replaceSpace.cpp; sourceTree = "<group>"; };
+		9F33C2D825F65197003798C5 /* buildTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = buildTree.cpp; sourceTree = "<group>"; };
 		9F3424FE2467B69E009D3B61 /* reverseKGroup.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = reverseKGroup.cpp; sourceTree = "<group>"; };
 		9F41D6B7248D39BF00614424 /* circularQueue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = circularQueue.cpp; sourceTree = "<group>"; };
 		9F42575E2466D07900C5000F /* letterCombinations.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = letterCombinations.cpp; sourceTree = "<group>"; };
@@ -183,6 +188,7 @@
 		9FC9208025F1C16D004FAE5E /* myQueue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = myQueue.cpp; sourceTree = "<group>"; };
 		9FCF0041244095F400BB4F48 /* reverseWords.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = reverseWords.cpp; sourceTree = "<group>"; };
 		9FCF00432440A8AF00BB4F48 /* shortestPalindrome.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = shortestPalindrome.cpp; sourceTree = "<group>"; };
+		9FD3962625F6170600829530 /* findNumInMatrix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = findNumInMatrix.cpp; sourceTree = "<group>"; };
 		9FD5C2F42466BC2000B7F65B /* mySqrt.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mySqrt.cpp; sourceTree = "<group>"; };
 		9FDB6F3A244881F900BD6D4E /* doubleLink.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = doubleLink.cpp; sourceTree = "<group>"; };
 		9FDB6F3C2448821200BD6D4E /* matrixMultiplication.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = matrixMultiplication.cpp; sourceTree = "<group>"; };
@@ -238,6 +244,7 @@
 			isa = PBXGroup;
 			children = (
 				9F9AE21125F375FE00D96445 /* balanceBST.cpp */,
+				9F33C2D825F65197003798C5 /* buildTree.cpp */,
 				9F4398B22487949B0064CAD4 /* combine.cpp */,
 				9FAE017025F35A1500BCD4FB /* convertBiNode.cpp */,
 				9F9AE21525F3A5B300D96445 /* convertBST.cpp */,
@@ -247,6 +254,7 @@
 				9FADBB60248F3B0D001BAC01 /* DinnerPlates.cpp */,
 				9FBAFB28248E5F1900CC7DAD /* equationsPossible.cpp */,
 				9FA49B61245C631300084243 /* findMedianSortedArrays.cpp */,
+				9FD3962625F6170600829530 /* findNumInMatrix.cpp */,
 				9F1BE1B5246542E50068D3E2 /* findSubstring.cpp */,
 				9F035D6C25F1CCBA00FB9E9E /* findKthLargest.cpp */,
 				9F1E2A85246A989200592A4D /* findLongestWord.cpp */,
@@ -307,6 +315,7 @@
 				9F1E2A7D246A80B300592A4D /* uniquePaths.cpp */,
 				9F1E2A7F246A837100592A4D /* uniquePathsWithObstacles.cpp */,
 				9FFAFD0A243F128400242D01 /* validbrackets.cpp */,
+				9F33C2D525F64D64003798C5 /* replaceSpace.cpp */,
 			);
 			path = leetcodeprac;
 			sourceTree = "<group>";
@@ -405,6 +414,7 @@
 				9F75F44E247FFEEA00C0C6AB /* removeNthFromEnd.cpp in Sources */,
 				9F4257612466F06100C5000F /* swapPairs.cpp in Sources */,
 				9F028051245D10B800B0EAF5 /* convertZ.cpp in Sources */,
+				9FD3962725F6170600829530 /* findNumInMatrix.cpp in Sources */,
 				9F9AE21625F3A5B300D96445 /* convertBST.cpp in Sources */,
 				9FADBB65248F9D60001BAC01 /* CQueue.cpp in Sources */,
 				9F5FEE992510B7C900D48672 /* exponentiation.cpp in Sources */,
@@ -434,8 +444,10 @@
 				9FDB6F3B244881F900BD6D4E /* doubleLink.cpp in Sources */,
 				9F263E382469A8A700B5F3BB /* orangesRotting.cpp in Sources */,
 				9F1E2A82246A861000592A4D /* minPathSum.cpp in Sources */,
+				9F33C2D925F65197003798C5 /* buildTree.cpp in Sources */,
 				9F1E2A7E246A80B300592A4D /* uniquePaths.cpp in Sources */,
 				9F1BE1B4246512E60068D3E2 /* maximalRectangle.cpp in Sources */,
+				9F33C2D625F64D64003798C5 /* replaceSpace.cpp in Sources */,
 				9F01A40A246446C9003A0D44 /* maxArea.cpp in Sources */,
 				9F4398B124878DD00064CAD4 /* subsets.cpp in Sources */,
 				9F1BE1B82465455A0068D3E2 /* longestCommonPrefix.cpp in Sources */,

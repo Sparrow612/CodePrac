@@ -39,10 +39,10 @@ public:
     }
 };
 
-int main(){
-    TreeNode a(4), b(1), c(6);
-    a.left = &b;
-    a.right = &c;
-    TreeNode* r = ConvertBST().convertBST(&a);
-    cout<<r->val<<endl;
-}
+//int main(){
+//    TreeNode a(4), b(1), c(6);
+//    a.left = &b;
+//    a.right = &c;
+//    TreeNode* r = ConvertBST().convertBST(&a);
+//    cout<<r->val<<endl;
+//}
