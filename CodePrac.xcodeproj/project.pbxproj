@@ -35,6 +35,7 @@
 		9F318F5B24EFB78800C7BE3E /* test2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F318F5924EFB78800C7BE3E /* test2.cpp */; };
 		9F33C2D625F64D64003798C5 /* replaceSpace.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F33C2D525F64D64003798C5 /* replaceSpace.cpp */; };
 		9F33C2D925F65197003798C5 /* buildTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F33C2D825F65197003798C5 /* buildTree.cpp */; };
+		9F33C2DD25F659B1003798C5 /* findPathInMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F33C2DC25F659B1003798C5 /* findPathInMatrix.cpp */; };
 		9F3424FF2467B69E009D3B61 /* reverseKGroup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F3424FE2467B69E009D3B61 /* reverseKGroup.cpp */; };
 		9F41D6B8248D39BF00614424 /* circularQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F41D6B7248D39BF00614424 /* circularQueue.cpp */; };
 		9F42575F2466D07900C5000F /* letterCombinations.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F42575E2466D07900C5000F /* letterCombinations.cpp */; };
@@ -138,6 +139,7 @@
 		9F318F5A24EFB78800C7BE3E /* test2.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = test2.hpp; sourceTree = "<group>"; };
 		9F33C2D525F64D64003798C5 /* replaceSpace.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = replaceSpace.cpp; sourceTree = "<group>"; };
 		9F33C2D825F65197003798C5 /* buildTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = buildTree.cpp; sourceTree = "<group>"; };
+		9F33C2DC25F659B1003798C5 /* findPathInMatrix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = findPathInMatrix.cpp; sourceTree = "<group>"; };
 		9F3424FE2467B69E009D3B61 /* reverseKGroup.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = reverseKGroup.cpp; sourceTree = "<group>"; };
 		9F41D6B7248D39BF00614424 /* circularQueue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = circularQueue.cpp; sourceTree = "<group>"; };
 		9F42575E2466D07900C5000F /* letterCombinations.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = letterCombinations.cpp; sourceTree = "<group>"; };
@@ -258,6 +260,7 @@
 				9F1BE1B5246542E50068D3E2 /* findSubstring.cpp */,
 				9F035D6C25F1CCBA00FB9E9E /* findKthLargest.cpp */,
 				9F1E2A85246A989200592A4D /* findLongestWord.cpp */,
+				9F33C2DC25F659B1003798C5 /* findPathInMatrix.cpp */,
 				9FFAFD0C243F168200242D01 /* generateParenthesis.cpp */,
 				9F61FF472438CC2100FF3151 /* ispalindrome.cpp */,
 				9F9AE21825F3AC0100D96445 /* isAVL.cpp */,
@@ -490,6 +493,7 @@
 				9F7F72022489D2BA005977C8 /* spiralOrder.cpp in Sources */,
 				9F1E2A84246A8C6400592A4D /* minFallingPathSum.cpp in Sources */,
 				9FA49B60245BFC1400084243 /* mergeTwoLists.cpp in Sources */,
+				9F33C2DD25F659B1003798C5 /* findPathInMatrix.cpp in Sources */,
 				9F1BE1B6246542E50068D3E2 /* findSubstring.cpp in Sources */,
 				9F9AE21925F3AC0100D96445 /* isAVL.cpp in Sources */,
 				9F01A40C246448FD003A0D44 /* sumof4.cpp in Sources */,
