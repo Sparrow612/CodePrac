@@ -38,11 +38,11 @@ bool exist(vector<vector<char>>& board, string word) {
     
 }
 
-int main(){
-    vector<vector<char>> board = {{'a','b','c','e'},
-        {'s','f','c','s'},
-        {'a','d','e','e'}};
-    string word= "bfce";
-    cout<<exist(board, word)<<endl;
-}
+//int main(){
+//    vector<vector<char>> board = {{'a','b','c','e'},
+//        {'s','f','c','s'},
+//        {'a','d','e','e'}};
+//    string word= "bfce";
+//    cout<<exist(board, word)<<endl;
+//}
 
