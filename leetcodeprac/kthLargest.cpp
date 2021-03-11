@@ -18,6 +18,11 @@ struct TreeNode {
 
 int cur = 0, ans = 0;
 
+
+int kthLargest(TreeNode* root, int k) {
+    traverse(root, k);
+    return ans;
+}
 void traverse(TreeNode* root, int k){
     if (!root) return;
     traverse(root->right, k);
@@ -27,9 +32,4 @@ void traverse(TreeNode* root, int k){
     cur++;
     
     traverse(root->left, k);
-}
-
-int kthLargest(TreeNode* root, int k) {
-    traverse(root, k);
-    return ans;
 }
