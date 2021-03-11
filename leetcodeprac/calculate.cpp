@@ -47,6 +47,6 @@ int calculate(string s) {
     return res;
 }
 
-int main(){
-    cout<<calculate("2-1 + 1")<<endl;
-}
+//int main(){
+//    cout<<calculate("2-1 + 1")<<endl;
+//}
