@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="leetcodeprac"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="leetcodeprac">
+				<Option output="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/cmake-build-debug/leetcodeprac" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 leetcodeprac"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="leetcodeprac/fast">
+				<Option output="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/cmake-build-debug/leetcodeprac" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 leetcodeprac/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/Bailian/exponentiation.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/Bailian/telephoneNumber.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/JustForFun/BigDataAdd.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/JustForFun/BigDataMul.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/JustForFun/terminal.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/JustForFun/test2.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/Others/HeadPoseEstimator.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/cpphomework/doubleLink.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/cpphomework/encryption.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/cpphomework/matrixMultiplication.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/cpphomework/mergeLinkedList.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/cpphomework/reArrangeLinkedList.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/cpphomework/test.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/cpphomework/test2.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/cpphomework/test2.hpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/leetcodeprac/CQueue.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/leetcodeprac/DinnerPlates.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/leetcodeprac/LFUCache.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/leetcodeprac/MinStack.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/leetcodeprac/MovementRangeofRobot.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/leetcodeprac/SortedStack.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/leetcodeprac/StackOfPlates.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/leetcodeprac/TripleInOne.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/leetcodeprac/Twitter.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/leetcodeprac/balanceBST.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/leetcodeprac/circularQueue.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/leetcodeprac/combine.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/leetcodeprac/convertBST.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/leetcodeprac/convertBiNode.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/leetcodeprac/convertZ.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/leetcodeprac/equationsPossible.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/leetcodeprac/findKthLargest.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/leetcodeprac/findLongestWord.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/leetcodeprac/findMedianSortedArrays.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/leetcodeprac/findSubstring.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/leetcodeprac/generateParenthesis.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/leetcodeprac/isAVL.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/leetcodeprac/ispalindrome.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/leetcodeprac/lengthOfLIS.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/leetcodeprac/letterCombinations.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/leetcodeprac/longestCommonPrefix.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/leetcodeprac/longestPalindrome.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/leetcodeprac/longestnorepeat.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/leetcodeprac/maxArea.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/leetcodeprac/maxSquare.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/leetcodeprac/maxSubArray.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/leetcodeprac/maxSumBST.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/leetcodeprac/maximalRectangle.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/leetcodeprac/maxrectangle.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/leetcodeprac/mergeKLists.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/leetcodeprac/mergeTwoLists.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/leetcodeprac/minFallingPathSum.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/leetcodeprac/minPathSum.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/leetcodeprac/myAtoi.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/leetcodeprac/myPow.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/leetcodeprac/myQueue.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/leetcodeprac/mySqrt.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/leetcodeprac/new21GAME.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/leetcodeprac/nextGreaterElements.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/leetcodeprac/orangesRotting.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/leetcodeprac/partition.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/leetcodeprac/permutation.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/leetcodeprac/plusOne.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/leetcodeprac/regularExpression.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/leetcodeprac/removeElements.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/leetcodeprac/removeNthFromEnd.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/leetcodeprac/reverseInt.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/leetcodeprac/reverseKGroup.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/leetcodeprac/reverseList.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/leetcodeprac/reverseWords.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/leetcodeprac/shipWithinDays.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/leetcodeprac/shortestPalindrome.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/leetcodeprac/smallestDifference.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/leetcodeprac/spiralOrder.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/leetcodeprac/strStr.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/leetcodeprac/subsets.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/leetcodeprac/sumof2.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/leetcodeprac/sumof3.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/leetcodeprac/sumof4.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/leetcodeprac/superEggDrop.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/leetcodeprac/swapPairs.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/leetcodeprac/threeSumClosest.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/leetcodeprac/trapTheRain.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/leetcodeprac/uniquePaths.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/leetcodeprac/uniquePathsWithObstacles.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/leetcodeprac/validbrackets.cpp">
+			<Option target="leetcodeprac"/>
+		</Unit>
+		<Unit filename="/Users/chengrongxin/Documents/projects/leetcode/leetcodeprac/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
