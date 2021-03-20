@@ -12,7 +12,7 @@
 
 using namespace std;
 
-void spiralOrder(vector<vector<int>>& matrix, int topleft, int topright, int top,int bottom, vector<int>& output) {
+void spiralOrder(vector<vector<int> >& matrix, int topleft, int topright, int top,int bottom, vector<int>& output) {
     if (topleft>topright||top>bottom) return;
     for (int i=topleft;i<=topright;i++)
         output.push_back(matrix[top][i]);
@@ -27,7 +27,7 @@ void spiralOrder(vector<vector<int>>& matrix, int topleft, int topright, int top
     spiralOrder(matrix, topleft+1, topright-1, top+1,bottom-1, output);
 }
 
-vector<int> spiralOrder(vector<vector<int>>& matrix) {
+vector<int> spiralOrder(vector<vector<int> >& matrix) {
     int n = (int)matrix.size();
     if (!n) return vector<int>();
     int m = (int)matrix[0].size();
