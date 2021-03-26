@@ -34,10 +34,14 @@ public:
         stack<int> stk;
         for (int i = 0;i<n;i++){
             while (!stk.empty() && height[i] >height[stk.top()]){
+                int cur = stk.top();
                 stk.pop();
+                if (stk.empty()){
+                    break;
+                }
+                int dis = i-stk.top()-1;
+                ans += (min(height[i], height[stk.top()])- height[cur])*dis;
             }
-            int dis = i-stk.top()-1;
-            if (dis > 0 ) ans += min(height[i], height[stk.top()])*dis;
             stk.push(i);
         }
         return ans;
