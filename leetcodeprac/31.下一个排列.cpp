@@ -22,7 +22,7 @@ public:
         
         if (idx >= 0 ){
             int cur = n-1;
-            while (cur>idx&&nums[cur]<=nums[idx]){
+            while (cur>idx && nums[cur]<=nums[idx]){
                 cur--;
             }
             swap(nums, idx, cur);

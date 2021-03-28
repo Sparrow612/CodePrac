@@ -3,6 +3,11 @@
         "memory": "cpp",
         "regex": "cpp",
         "utility": "cpp",
-        "vector": "cpp"
+        "vector": "cpp",
+        "__hash_table": "cpp",
+        "unordered_map": "cpp",
+        "__locale": "cpp",
+        "iosfwd": "cpp",
+        "iterator": "cpp"
     }
 }
