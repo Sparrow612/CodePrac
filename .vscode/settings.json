@@ -8,6 +8,8 @@
         "unordered_map": "cpp",
         "__locale": "cpp",
         "iosfwd": "cpp",
-        "iterator": "cpp"
+        "iterator": "cpp",
+        "string": "cpp",
+        "filesystem": "cpp"
     }
 }
