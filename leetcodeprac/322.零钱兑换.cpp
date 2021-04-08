@@ -10,9 +10,9 @@ public:
     int coinChange(vector<int>& coins, int amount) {
         vector<int> f(amount+1, amount+1);
         f[0] = 0;
-        
-        for (int c: coins){
-            for(int i=c;i<=amount;i++){
+        for(int i=1;i<=amount;i++){
+            for (int c: coins){
+                if (i<c) continue;
                 f[i] = min(f[i-c]+1, f[i]);
             }
         }
